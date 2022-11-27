@@ -27,4 +27,23 @@ public class Expresion {
     public String getValor() {
         return valor;
     }
+    
+    @Override
+    public String toString(){
+        String op;
+        switch(operador){
+            case IGUALDAD: op = "=";
+            break;
+            case MENOR_IGUAL: op = "<=";
+            break;
+            case MAYOR_IGUAL: op = ">=";
+            break;
+            case MAYOR: op = ">";
+            break;
+            case MENOR: op = "<";
+            break;
+            default: op = "";
+        }
+        return "("+op+","+variable+","+valor+")";
+    }
 }

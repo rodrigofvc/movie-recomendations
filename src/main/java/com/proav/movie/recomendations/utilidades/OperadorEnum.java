@@ -8,4 +8,6 @@ public enum OperadorEnum {
     IGUALDAD, 
     MENOR_IGUAL,
     MAYOR_IGUAL,
+    MENOR,
+    MAYOR
 }
