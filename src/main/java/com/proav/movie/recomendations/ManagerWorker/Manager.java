@@ -27,7 +27,7 @@ public class Manager {
         ExecutorService poolWorkers = Executors.newFixedThreadPool(numHilos);
         
         for (int i = 0; i < numHilos; i++) {
-            String subarchivo = "subarchivo-" + Integer.toString(i+1) + ".csv";
+            String subarchivo = "data/output/subarchivo-" + Integer.toString(i+1) + ".csv";
             poolWorkers.execute(new Worker(subarchivo, expresiones));
         }
         
