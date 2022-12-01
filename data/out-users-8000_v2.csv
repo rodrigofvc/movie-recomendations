@@ -1,4 +1,4 @@
-,userId,movieId,rating,timestamp,title,year,genres,name,lastname,age
+idRating,userId,movieId,rating,timestamp,title,year,genres,name,lastname,age
 0,1,307,3.5,1256677221,Three Colors: Blue (Trois couleurs: Bleu),1993,Drama,Liam,Smith,52
 1,1,481,3.5,1256677456,Kalifornia,1993,Drama|Thriller,Liam,Smith,52
 2,1,1091,1.5,1256677471,Weekend at Bernie's,1989,Comedy,Liam,Smith,52

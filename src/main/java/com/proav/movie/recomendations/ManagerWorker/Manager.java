@@ -20,6 +20,7 @@ public class Manager {
      * Crea un pool de hilos y obten la información de cada hilo.
      * @param numHilos hilos a crear en el pool.
      * @param expresiones filtros para los registros.
+     * @param columnas las columnas de los registros esperados.
      */
     public static void filtraInformacion(int numHilos, ArrayList<ArrayList<Expresion>> expresiones) {
         
@@ -37,10 +38,6 @@ public class Manager {
         while (! poolWorkers.isTerminated()) {            
         }
         
-        System.out.println("REGISTROS RECIBIDOS DE LOS WORKERS");
-        for (String r : registros) {
-            System.out.println(r);
-        }
         
     }
     

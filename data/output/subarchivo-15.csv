@@ -1,0 +1,501 @@
+,userId,movieId,rating,timestamp,title,year,genres,name,lastname,age
+7000,497,838,4.0,941880996,Emma,1996,Comedy|Drama|Romance,Sonny,Smith,53
+7001,497,2023,4.0,941883239,Godfather: Part III,1990,Crime|Drama|Mystery|Thriller,Sonny,Smith,53
+7002,497,3006,4.0,941877735,Insider,1999,Drama|Thriller,Sonny,Smith,53
+7003,497,17,5.0,941879872,Sense and Sensibility,1995,Drama|Romance,Sonny,Smith,53
+7004,497,207,4.0,941883159,Walk in the Clouds,1995,Drama|Romance,Sonny,Smith,53
+7005,497,222,4.0,941882430,Circle of Friends,1995,Drama|Romance,Sonny,Smith,53
+7006,497,232,5.0,941880852,Eat Drink Man Woman (Yin shi nan nu),1994,Comedy|Drama|Romance,Sonny,Smith,53
+7007,497,235,2.0,941881156,Ed Wood,1994,Comedy|Drama,Sonny,Smith,53
+7008,497,249,3.0,941881787,Immortal Beloved,1994,Drama|Romance,Sonny,Smith,53
+7009,497,265,5.0,941879334,Like Water for Chocolate (Como agua para chocolate),1992,Drama|Fantasy|Romance,Sonny,Smith,53
+7010,497,272,5.0,941879041,Madness of King George,1994,Comedy|Drama,Sonny,Smith,53
+7011,497,300,5.0,941880852,Quiz Show,1994,Drama,Sonny,Smith,53
+7012,497,477,4.0,941881971,What's Love Got to Do with It?,1993,Drama|Musical,Sonny,Smith,53
+7013,497,22,4.0,941883319,Copycat,1995,Crime|Drama|Horror|Mystery|Thriller,Sonny,Smith,53
+7014,497,230,4.0,941881156,Dolores Claiborne,1995,Drama|Thriller,Sonny,Smith,53
+7015,497,508,5.0,941880546,Philadelphia,1993,Drama,Sonny,Smith,53
+7016,497,81,5.0,941883074,Things to Do in Denver When You're Dead,1995,Crime|Drama|Romance,Sonny,Smith,53
+7017,497,229,3.0,941880476,Death and the Maiden,1994,Drama|Thriller,Sonny,Smith,53
+7018,497,351,4.0,941883478,Corrina,1994,Comedy|Drama|Romance,Sonny,Smith,53
+7019,497,428,3.0,941880476,Bronx Tale,1993,Drama,Sonny,Smith,53
+7020,497,431,4.0,941883319,Carlito's Way,1993,Crime|Drama,Sonny,Smith,53
+7021,497,507,4.0,941882066,Perfect World,1993,Crime|Drama|Thriller,Sonny,Smith,53
+7022,497,535,5.0,941882150,Short Cuts,1993,Drama,Sonny,Smith,53
+7023,497,628,5.0,941880546,Primal Fear,1996,Crime|Drama|Mystery|Thriller,Sonny,Smith,53
+7024,497,1084,5.0,941879223,Bonnie and Clyde,1967,Crime|Drama,Sonny,Smith,53
+7025,497,1161,5.0,941883937,Tin Drum,1979,Drama|War,Sonny,Smith,53
+7026,497,1227,3.0,941883074,Once Upon a Time in America,1984,Crime|Drama,Sonny,Smith,53
+7027,497,1245,5.0,941881327,Miller's Crossing,1990,Crime|Drama|Film-Noir|Thriller,Sonny,Smith,53
+7028,497,953,1.0,941880321,It's a Wonderful Life,1946,Children|Drama|Fantasy|Romance,Sonny,Smith,53
+7029,497,1231,5.0,941881385,Right Stuff,1983,Drama,Sonny,Smith,53
+7030,497,1120,4.0,941879334,People vs. Larry Flynt,1996,Comedy|Drama,Sonny,Smith,53
+7031,497,194,5.0,941879434,Smoke,1995,Comedy|Drama,Sonny,Smith,53
+7032,497,529,4.0,941879627,Searching for Bobby Fischer,1993,Drama,Sonny,Smith,53
+7033,497,1097,5.0,941879041,E.T. the Extra-Terrestrial,1982,Children|Drama|Sci-Fi,Sonny,Smith,53
+7034,497,1250,5.0,941879510,Bridge on the River Kwai,1957,Adventure|Drama|War,Sonny,Smith,53
+7035,497,1272,4.0,941880173,Patton,1970,Drama|War,Sonny,Smith,53
+7036,497,1302,3.0,941882150,Field of Dreams,1989,Children|Drama|Fantasy,Sonny,Smith,53
+7037,497,1246,4.0,941880932,Dead Poets Society,1989,Drama,Sonny,Smith,53
+7038,497,2826,3.0,941877855,13th Warrior,1999,Action|Adventure|Fantasy,Sonny,Smith,53
+7039,497,1276,5.0,941879510,Cool Hand Luke,1967,Drama,Sonny,Smith,53
+7040,497,247,5.0,941879819,Heavenly Creatures,1994,Crime|Drama,Sonny,Smith,53
+7041,497,1949,4.0,941878367,Man for All Seasons,1966,Drama,Sonny,Smith,53
+7042,497,2686,5.0,941879434,Red Violin,1998,Drama|Mystery,Sonny,Smith,53
+7043,497,1183,1.0,941879819,English Patient,1996,Drama|Romance|War,Sonny,Smith,53
+7044,497,1224,5.0,941878632,Henry V,1989,Action|Drama|Romance|War,Sonny,Smith,53
+7045,497,1228,4.0,941878092,Raging Bull,1980,Drama,Sonny,Smith,53
+7046,497,1293,5.0,941879223,Gandhi,1982,Drama,Sonny,Smith,53
+7047,497,1619,3.0,941883319,Seven Years in Tibet,1997,Adventure|Drama|War,Sonny,Smith,53
+7048,497,1674,5.0,941878801,Witness,1985,Drama|Romance|Thriller,Sonny,Smith,53
+7049,497,1942,5.0,941878243,All the King's Men,1949,Drama,Sonny,Smith,53
+7050,497,1944,4.0,941879872,From Here to Eternity,1953,Drama|Romance|War,Sonny,Smith,53
+7051,497,1956,5.0,941878632,Ordinary People,1980,Drama,Sonny,Smith,53
+7052,497,2067,4.0,941879720,Doctor Zhivago,1965,Drama|Romance|War,Sonny,Smith,53
+7053,497,2146,3.0,941878530,St. Elmo's Fire,1985,Drama|Romance,Sonny,Smith,53
+7054,497,2289,5.0,941878734,Player,1992,Comedy|Crime|Drama,Sonny,Smith,53
+7055,497,2336,4.0,941878530,Elizabeth,1998,Drama,Sonny,Smith,53
+7056,497,2919,5.0,941882567,Year of Living Dangerously,1982,Drama|Romance|War,Sonny,Smith,53
+7057,497,3062,3.0,941882243,Longest Day,1962,Action|Drama|War,Sonny,Smith,53
+7058,497,2409,3.0,941881617,Rocky II,1979,Action|Drama,Sonny,Smith,53
+7059,497,154,4.0,941882150,Beauty of the Day (Belle de jour),1967,Drama,Sonny,Smith,53
+7060,497,306,5.0,941879434,Three Colors: Red (Trois couleurs: Rouge),1994,Drama,Sonny,Smith,53
+7061,497,1104,5.0,941878243,Streetcar Named Desire,1951,Drama,Sonny,Smith,53
+7062,497,1172,5.0,941878632,Cinema Paradiso (Nuovo cinema Paradiso),1989,Drama,Sonny,Smith,53
+7063,497,1179,5.0,941881617,Grifters,1990,Crime|Drama|Film-Noir,Sonny,Smith,53
+7064,497,1185,5.0,941880852,My Left Foot,1989,Drama,Sonny,Smith,53
+7065,497,1263,5.0,941878734,Deer Hunter,1978,Drama|War,Sonny,Smith,53
+7066,497,1938,4.0,941880643,Lost Weekend,1945,Drama,Sonny,Smith,53
+7067,497,1945,5.0,941879510,On the Waterfront,1954,Crime|Drama,Sonny,Smith,53
+7068,497,2076,5.0,941878367,Blue Velvet,1986,Drama|Mystery|Thriller,Sonny,Smith,53
+7069,497,2132,5.0,941878420,Who's Afraid of Virginia Woolf?,1966,Drama,Sonny,Smith,53
+7070,497,2145,4.0,941883074,Pretty in Pink,1986,Comedy|Drama|Romance,Sonny,Smith,53
+7071,497,2245,3.0,941883650,Working Girl,1988,Comedy|Drama|Romance,Sonny,Smith,53
+7072,497,3019,5.0,941882947,Drugstore Cowboy,1989,Crime|Drama,Sonny,Smith,53
+7073,497,678,5.0,941878420,Some Folks Call It a Sling Blade,1993,Drama|Thriller,Sonny,Smith,53
+7074,497,802,3.0,941882243,Phenomenon,1996,Drama|Romance,Sonny,Smith,53
+7075,497,920,4.0,941880996,Gone with the Wind,1939,Drama|Romance|War,Sonny,Smith,53
+7076,497,926,4.0,941878243,All About Eve,1950,Drama,Sonny,Smith,53
+7077,497,991,4.0,941881327,Michael Collins,1996,Drama,Sonny,Smith,53
+7078,497,1027,3.0,941882738,Robin Hood: Prince of Thieves,1991,Adventure|Drama,Sonny,Smith,53
+7079,497,1124,1.0,941882567,On Golden Pond,1981,Drama,Sonny,Smith,53
+7080,497,1287,5.0,941881327,Ben-Hur,1959,Action|Adventure|Drama,Sonny,Smith,53
+7081,497,1358,5.0,941881617,Sling Blade,1996,Drama,Sonny,Smith,53
+7082,497,1620,4.0,941882946,Kiss the Girls,1997,Crime|Drama|Mystery|Thriller,Sonny,Smith,53
+7083,497,1946,4.0,941878302,Marty,1955,Drama|Romance,Sonny,Smith,53
+7084,497,1950,4.0,941878243,In the Heat of the Night,1967,Drama|Mystery,Sonny,Smith,53
+7085,497,1954,5.0,941878919,Rocky,1976,Drama,Sonny,Smith,53
+7086,497,1960,5.0,941878420,Last Emperor,1987,Drama,Sonny,Smith,53
+7087,497,1964,5.0,941880996,Klute,1971,Drama|Mystery,Sonny,Smith,53
+7088,497,2112,3.0,941880321,Grand Canyon,1991,Crime|Drama,Sonny,Smith,53
+7089,497,2370,3.0,941880752,Emerald Forest,1985,Action|Adventure|Drama,Sonny,Smith,53
+7090,497,2524,4.0,941882567,Towering Inferno,1974,Action|Adventure|Drama|Thriller,Sonny,Smith,53
+7091,497,1589,4.0,941882304,Cop Land,1997,Action|Crime|Drama|Thriller,Sonny,Smith,53
+7092,497,458,4.0,941883478,Geronimo: An American Legend,1993,Drama|Western,Sonny,Smith,53
+7093,497,1061,4.0,941883739,Sleepers,1996,Thriller,Sonny,Smith,53
+7094,497,1955,4.0,941882066,Kramer vs. Kramer,1979,Drama,Sonny,Smith,53
+7095,497,2872,4.0,941883159,Excalibur,1981,Adventure|Fantasy,Sonny,Smith,53
+7096,497,308,2.0,941882066,Three Colors: White (Trzy kolory: Bialy),1994,Comedy|Drama,Sonny,Smith,53
+7097,497,448,5.0,941881544,Fearless,1993,Drama,Sonny,Smith,53
+7098,497,1103,4.0,941881544,Rebel Without a Cause,1955,Drama,Sonny,Smith,53
+7099,497,1693,4.0,941879627,Amistad,1997,Drama|Mystery,Sonny,Smith,53
+7100,497,2130,3.0,941883011,Atlantic City,1980,Crime|Drama|Romance,Sonny,Smith,53
+7101,497,2313,5.0,941880243,Elephant Man,1980,Drama,Sonny,Smith,53
+7102,497,2320,2.0,941883937,Apt Pupil,1998,Drama|Thriller,Sonny,Smith,53
+7103,497,2551,4.0,941883739,Dead Ringers,1988,Drama|Horror|Thriller,Sonny,Smith,53
+7104,497,2966,4.0,941877554,Straight Story,1999,Adventure|Drama,Sonny,Smith,53
+7105,497,538,4.0,941881083,Six Degrees of Separation,1993,Drama,Sonny,Smith,53
+7106,497,800,5.0,941878366,Lone Star,1996,Drama|Mystery|Western,Sonny,Smith,53
+7107,497,2025,4.0,941880643,Lolita,1997,Drama|Romance,Sonny,Smith,53
+7108,497,1729,3.0,941881787,Jackie Brown,1997,Crime|Drama|Thriller,Sonny,Smith,53
+7109,497,3005,3.0,941877735,Bone Collector,1999,Thriller,Sonny,Smith,53
+7110,497,1672,4.0,941880996,Rainmaker,1997,Drama,Sonny,Smith,53
+7111,497,1176,5.0,941878920,Double Life of Veronique,1991,Drama|Fantasy|Romance,Sonny,Smith,53
+7112,497,1295,5.0,941881787,Unbearable Lightness of Being,1988,Drama,Sonny,Smith,53
+7113,497,2022,5.0,941878530,Last Temptation of Christ,1988,Drama,Sonny,Smith,53
+7114,497,1701,4.0,941881083,Deconstructing Harry,1997,Comedy|Drama,Sonny,Smith,53
+7115,497,766,4.0,941883074,I Shot Andy Warhol,1996,Drama,Sonny,Smith,53
+7116,497,1236,5.0,941880173,Trust,1990,Comedy|Drama|Romance,Sonny,Smith,53
+7117,497,1300,5.0,941881083,My Life as a Dog (Mitt liv som hund),1985,Comedy|Drama,Sonny,Smith,53
+7118,497,1678,5.0,941879133,Joy Luck Club,1993,Drama|Romance,Sonny,Smith,53
+7119,497,2020,5.0,941880996,Dangerous Liaisons,1988,Drama|Romance,Sonny,Smith,53
+7120,497,2729,4.0,941884060,Lolita,1962,Drama|Romance,Sonny,Smith,53
+7121,497,2068,3.0,941878302,Fanny and Alexander (Fanny och Alexander),1982,Drama|Fantasy|Mystery,Sonny,Smith,53
+7122,497,2117,5.0,941878367,1984 (Nineteen Eighty-Four),1984,Drama|Sci-Fi,Sonny,Smith,53
+7123,497,1271,5.0,941881692,Fried Green Tomatoes,1991,Comedy|Crime|Drama,Sonny,Smith,53
+7124,497,219,4.0,941881544,Cure,1995,Drama,Sonny,Smith,53
+7125,497,715,2.0,941879872,Horseman on the Roof,1995,Drama|Romance,Sonny,Smith,53
+7126,497,944,4.0,941883074,Lost Horizon,1937,Drama,Sonny,Smith,53
+7127,497,971,4.0,941881853,Cat on a Hot Tin Roof,1958,Drama,Sonny,Smith,53
+7128,497,1132,1.0,941878171,Manon of the Spring (Manon des sources),1986,Drama,Sonny,Smith,53
+7129,497,1187,3.0,941883478,Passion Fish,1992,Drama,Sonny,Smith,53
+7130,497,1354,5.0,941878171,Breaking the Waves,1996,Drama|Mystery,Sonny,Smith,53
+7131,497,1404,3.0,941883239,Night Falls on Manhattan,1996,Crime|Drama,Sonny,Smith,53
+7132,497,1694,5.0,941881853,Apostle,1997,Drama,Sonny,Smith,53
+7133,497,1888,4.0,941882567,Hope Floats,1998,Comedy|Drama|Romance,Sonny,Smith,53
+7134,497,2341,5.0,941883159,Dancing at Lughnasa,1998,Drama,Sonny,Smith,53
+7135,497,2443,5.0,941878243,Playing by Heart,1998,Drama|Romance,Sonny,Smith,53
+7136,497,2506,1.0,941878243,Other Sister,1999,Comedy|Drama|Romance,Sonny,Smith,53
+7137,497,2546,4.0,941882666,Deep End of the Ocean,1999,Drama,Sonny,Smith,53
+7138,497,2611,4.0,941880932,Winslow Boy,1999,Drama,Sonny,Smith,53
+7139,497,2969,5.0,941883074,Man and a Woman,1966,Drama|Romance,Sonny,Smith,53
+7140,497,2996,2.0,941877703,Music of the Heart,1999,Drama,Sonny,Smith,53
+7141,497,1233,5.0,941879819,Boot,1981,Action|Drama|War,Sonny,Smith,53
+7142,497,509,5.0,941881327,Piano,1993,Drama|Romance,Sonny,Smith,53
+7143,497,1357,5.0,941878919,Shine,1996,Drama|Romance,Sonny,Smith,53
+7144,497,280,4.0,941880393,Murder in the First,1995,Drama|Thriller,Sonny,Smith,53
+7145,497,1299,5.0,941879627,Killing Fields,1984,Drama|War,Sonny,Smith,53
+7146,497,1306,2.0,941880393,Until the End of the World (Bis ans Ende der Welt),1991,Adventure|Drama|Sci-Fi,Sonny,Smith,53
+7147,497,1801,3.0,941883478,Man in the Iron Mask,1998,Action|Adventure|Drama,Sonny,Smith,53
+7148,497,2875,4.0,941879223,Sommersby,1993,Drama|Mystery|Romance,Sonny,Smith,53
+7149,497,2906,1.0,941877936,Random Hearts,1999,Drama|Romance,Sonny,Smith,53
+7150,497,1411,4.0,941880173,Hamlet,1996,Crime|Drama|Romance,Sonny,Smith,53
+7151,497,1217,5.0,941879133,Ran,1985,Drama|War,Sonny,Smith,53
+7152,497,1958,4.0,941882567,Terms of Endearment,1983,Comedy|Drama,Sonny,Smith,53
+7153,497,1150,5.0,941878530,Return of Martin Guerre,1982,Drama,Sonny,Smith,53
+7154,497,233,3.0,941883650,Exotica,1994,Drama,Sonny,Smith,53
+7155,497,456,4.0,941882066,Fresh,1994,Crime|Drama|Thriller,Sonny,Smith,53
+7156,497,866,5.0,941879334,Bound,1996,Crime|Drama|Romance|Thriller,Sonny,Smith,53
+7157,497,1594,4.0,941880852,In the Company of Men,1997,Comedy|Drama,Sonny,Smith,53
+7158,497,1730,3.0,941880243,Kundun,1997,Drama,Sonny,Smith,53
+7159,497,1834,3.0,941878919,Spanish Prisoner,1997,Crime|Drama|Mystery|Thriller,Sonny,Smith,53
+7160,497,2348,3.0,941878420,Sid and Nancy,1986,Drama,Sonny,Smith,53
+7161,497,2269,1.0,941879627,Indecent Proposal,1993,Drama|Romance,Sonny,Smith,53
+7162,497,613,3.0,941880393,Jane Eyre,1996,Drama|Romance,Sonny,Smith,53
+7163,497,1096,5.0,941881971,Sophie's Choice,1982,Drama,Sonny,Smith,53
+7164,497,1660,4.0,941882243,Eve's Bayou,1997,Drama,Sonny,Smith,53
+7165,497,2071,5.0,941879041,And the Band Played On,1993,Drama,Sonny,Smith,53
+7166,497,2757,5.0,941883937,Frances,1982,Drama,Sonny,Smith,53
+7167,497,2852,4.0,941883159,Soldier's Story,1984,Drama,Sonny,Smith,53
+7168,497,2976,5.0,941877619,Bringing Out the Dead,1999,Drama,Sonny,Smith,53
+7169,497,1366,4.0,941881692,Crucible,1996,Drama,Sonny,Smith,53
+7170,497,1397,5.0,941879510,Bastard Out of Carolina,1996,Drama,Sonny,Smith,53
+7171,497,26,3.0,941881240,Othello,1995,Drama,Sonny,Smith,53
+7172,497,2059,2.0,941880643,Parent Trap,1998,Children|Comedy|Romance,Sonny,Smith,53
+7173,497,2410,2.0,941882066,Rocky III,1982,Action|Drama,Sonny,Smith,53
+7174,497,1277,4.0,941880243,Cyrano de Bergerac,1990,Comedy|Drama|Romance,Sonny,Smith,53
+7175,497,1643,5.0,941881156,Mrs. Brown (a.k.a. Her Majesty,1997,Drama|Romance,Sonny,Smith,53
+7176,497,1794,4.0,941879133,Love and Death on Long Island,1997,Comedy|Drama,Sonny,Smith,53
+7177,497,2767,3.0,941877789,Illuminata,1998,Comedy,Sonny,Smith,53
+7178,497,1286,4.0,941881327,Somewhere in Time,1980,Drama|Romance,Sonny,Smith,53
+7179,497,2106,3.0,941880643,Swing Kids,1993,Drama|War,Sonny,Smith,53
+7180,497,3037,5.0,941882360,Little Big Man,1970,Western,Sonny,Smith,53
+7181,497,764,4.0,941884060,Heavy,1995,Drama|Romance,Sonny,Smith,53
+7182,497,988,4.0,941883650,Grace of My Heart,1996,Comedy|Drama,Sonny,Smith,53
+7183,497,1173,1.0,941882150,Cook the Thief His Wife & Her Lover,1989,Comedy|Drama,Sonny,Smith,53
+7184,497,1305,5.0,941881971,Paris,1984,Drama|Romance,Sonny,Smith,53
+7185,497,1365,4.0,941879041,Ridicule,1996,Drama,Sonny,Smith,53
+7186,497,1401,4.0,941883159,Ghosts of Mississippi,1996,Drama,Sonny,Smith,53
+7187,497,1406,3.0,941878920,La Cérémonie,1995,Crime|Drama|Mystery|Thriller,Sonny,Smith,53
+7188,497,1480,5.0,941882807,Smilla's Sense of Snow,1997,Drama|Thriller,Sonny,Smith,53
+7189,497,1719,5.0,941878733,Sweet Hereafter,1997,Drama,Sonny,Smith,53
+7190,497,1913,5.0,941882150,Picnic at Hanging Rock,1975,Drama|Mystery,Sonny,Smith,53
+7191,497,2442,4.0,941882666,Hilary and Jackie,1998,Drama,Sonny,Smith,53
+7192,497,2474,3.0,941882870,Color of Money,1986,Drama,Sonny,Smith,53
+7193,497,2745,5.0,941882738,Mission,1986,Drama,Sonny,Smith,53
+7194,497,3053,5.0,941877554,Messenger: The Story of Joan of Arc,1999,Drama|War,Sonny,Smith,53
+7195,497,2282,4.0,941878801,Pecker,1998,Comedy|Drama,Sonny,Smith,53
+7196,497,57,3.0,941883478,Home for the Holidays,1995,Drama,Sonny,Smith,53
+7197,497,1611,5.0,941883011,My Own Private Idaho,1991,Drama|Romance,Sonny,Smith,53
+7198,497,1840,5.0,941880932,He Got Game,1998,Drama,Sonny,Smith,53
+7199,497,1841,4.0,941883159,Gingerbread Man,1998,Drama|Thriller,Sonny,Smith,53
+7200,497,2570,2.0,941878632,Walk on the Moon,1999,Drama|Romance,Sonny,Smith,53
+7201,497,3011,4.0,941878092,They Shoot Horses,1969,Drama,Sonny,Smith,53
+7202,497,2312,4.0,941878171,Children of a Lesser God,1986,Drama,Sonny,Smith,53
+7203,497,159,4.0,941880321,Clockers,1995,Crime|Drama|Mystery,Sonny,Smith,53
+7204,497,469,3.0,941882430,House of the Spirits,1993,Drama|Romance,Sonny,Smith,53
+7205,497,1177,5.0,941879510,Enchanted April,1992,Drama|Romance,Sonny,Smith,53
+7206,497,1264,5.0,941880476,Diva,1981,Action|Drama|Mystery|Romance|Thriller,Sonny,Smith,53
+7207,497,1598,3.0,941882567,Desperate Measures,1998,Crime|Drama|Thriller,Sonny,Smith,53
+7208,497,2262,2.0,941882870,About Last Night...,1986,Comedy|Drama|Romance,Sonny,Smith,53
+7209,497,2417,4.0,941878530,Heartburn,1986,Comedy|Drama,Sonny,Smith,53
+7210,497,2891,4.0,941877673,Happy,1999,Comedy,Sonny,Smith,53
+7211,497,2988,3.0,941883319,Melvin and Howard,1980,Drama,Sonny,Smith,53
+7212,497,488,4.0,941880932,M. Butterfly,1993,Drama|Romance,Sonny,Smith,53
+7213,497,2925,4.0,941878092,Conformist,1970,Drama,Sonny,Smith,53
+7214,497,121,5.0,941879041,Boys of St. Vincent,1992,Drama,Sonny,Smith,53
+7215,497,848,4.0,941883937,Spitfire Grill,1996,Drama,Sonny,Smith,53
+7216,497,465,5.0,941879223,Heaven & Earth,1993,Action|Drama|War,Sonny,Smith,53
+7217,497,2563,3.0,941881385,Dangerous Beauty,1998,Drama,Sonny,Smith,53
+7218,497,4424,4.0,941881617,Garden of the Finzi-Continis,1970,Drama,Sonny,Smith,53
+7219,497,893,5.0,941881787,Mother Night,1996,Drama,Sonny,Smith,53
+7220,497,1727,2.0,941882360,Horse Whisperer,1998,Drama|Romance,Sonny,Smith,53
+7221,497,1624,4.0,941883159,Thousand Acres,1997,Drama,Sonny,Smith,53
+7222,497,2069,2.0,941880752,Trip to Bountiful,1985,Drama,Sonny,Smith,53
+7223,497,2972,5.0,941883159,Red Sorghum (Hong gao liang),1987,Drama|War,Sonny,Smith,53
+7224,497,2445,3.0,941882360,At First Sight,1999,Drama,Sonny,Smith,53
+7225,497,301,5.0,941881544,Picture Bride (Bijo photo),1994,Drama|Romance,Sonny,Smith,53
+7226,497,461,5.0,941880476,Go Fish,1994,Drama|Romance,Sonny,Smith,53
+7227,497,571,2.0,941878367,Wedding Gift,1994,Drama|Romance,Sonny,Smith,53
+7228,497,702,4.0,941880476,Faces,1968,Drama,Sonny,Smith,53
+7229,497,993,5.0,941881240,Infinity,1996,Drama,Sonny,Smith,53
+7230,497,1043,2.0,941882430,To Gillian on Her 37th Birthday,1996,Drama|Romance,Sonny,Smith,53
+7231,497,1650,3.0,941882947,Washington Square,1997,Drama,Sonny,Smith,53
+7232,497,1728,5.0,941882430,Winter Guest,1997,Drama,Sonny,Smith,53
+7233,497,1860,5.0,941881971,Character (Karakter),1997,Drama,Sonny,Smith,53
+7234,497,2131,4.0,941882304,Autumn Sonata (Höstsonaten),1978,Drama,Sonny,Smith,53
+7235,497,2252,3.0,941879223,Hero,1992,Comedy|Drama,Sonny,Smith,53
+7236,497,2419,3.0,941881240,Extremities,1986,Drama|Thriller,Sonny,Smith,53
+7237,549,307,5.0,1238322638,Three Colors: Blue (Trois couleurs: Bleu),1993,Drama,Dariel,Smith,57
+7238,549,1091,2.0,1238330344,Weekend at Bernie's,1989,Comedy,Dariel,Smith,57
+7239,549,1449,4.5,1238319813,Waiting for Guffman,1996,Comedy,Dariel,Smith,57
+7240,549,2478,3.0,1238329864,¡Three Amigos!,1986,Comedy|Western,Dariel,Smith,57
+7241,549,3424,5.0,1238319472,Do the Right Thing,1989,Drama,Dariel,Smith,57
+7242,549,3893,3.5,1238330400,Nurse Betty,2000,Comedy|Crime|Drama|Romance|Thriller,Dariel,Smith,57
+7243,549,1186,5.0,1238322512,Sex,1989,Drama,Dariel,Smith,57
+7244,549,1235,5.0,1238322311,Harold and Maude,1971,Comedy|Drama|Romance,Dariel,Smith,57
+7245,549,1244,5.0,1238322262,Manhattan,1979,Comedy|Drama|Romance,Dariel,Smith,57
+7246,549,1296,4.5,1238322670,Room with a View,1986,Drama|Romance,Dariel,Smith,57
+7247,549,1663,4.0,1238318062,Stripes,1981,Comedy|War,Dariel,Smith,57
+7248,549,2108,4.0,1238322379,L.A. Story,1991,Comedy|Romance,Dariel,Smith,57
+7249,549,2243,5.0,1238322690,Broadcast News,1987,Comedy|Drama|Romance,Dariel,Smith,57
+7250,549,2707,3.0,1238322493,Arlington Road,1999,Thriller,Dariel,Smith,57
+7251,549,3363,5.0,1238318389,American Graffiti,1973,Comedy|Drama,Dariel,Smith,57
+7252,549,1221,5.0,1238315203,Godfather: Part II,1974,Crime|Drama,Dariel,Smith,57
+7253,549,1645,2.5,1238321547,The Devil's Advocate,1997,Drama|Mystery|Thriller,Dariel,Smith,57
+7254,549,2028,4.5,1238316403,Saving Private Ryan,1998,Action|Drama|War,Dariel,Smith,57
+7255,549,1,5.0,1238319291,Toy Story,1995,Adventure|Animation|Children|Comedy|Fantasy,Dariel,Smith,57
+7256,549,2,3.5,1238320785,Jumanji,1995,Adventure|Children|Fantasy,Dariel,Smith,57
+7257,549,6,4.5,1238318910,Heat,1995,Action|Crime|Thriller,Dariel,Smith,57
+7258,549,10,3.5,1238320022,GoldenEye,1995,Action|Adventure|Thriller,Dariel,Smith,57
+7259,549,11,3.5,1238320853,American President,1995,Comedy|Drama|Romance,Dariel,Smith,57
+7260,549,16,4.0,1238318803,Casino,1995,Crime|Drama,Dariel,Smith,57
+7261,549,19,2.5,1238320805,Ace Ventura: When Nature Calls,1995,Comedy,Dariel,Smith,57
+7262,549,20,2.0,1238330949,Money Train,1995,Action|Comedy|Crime|Drama|Thriller,Dariel,Smith,57
+7263,549,25,4.5,1238320683,Leaving Las Vegas,1995,Drama|Romance,Dariel,Smith,57
+7264,549,32,4.5,1238318757,Twelve Monkeys (a.k.a. 12 Monkeys),1995,Mystery|Sci-Fi|Thriller,Dariel,Smith,57
+7265,549,34,5.0,1238320012,Babe,1995,Children|Drama,Dariel,Smith,57
+7266,549,36,4.5,1238320722,Dead Man Walking,1995,Crime|Drama,Dariel,Smith,57
+7267,549,39,4.5,1238320672,Clueless,1995,Comedy|Romance,Dariel,Smith,57
+7268,549,47,4.5,1238318656,Seven (a.k.a. Se7en),1995,Mystery|Thriller,Dariel,Smith,57
+7269,549,50,5.0,1238315774,Usual Suspects,1995,Crime|Mystery|Thriller,Dariel,Smith,57
+7270,549,62,3.5,1238320734,Mr. Holland's Opus,1995,Drama,Dariel,Smith,57
+7271,549,65,2.0,1238330536,Bio-Dome,1996,Comedy,Dariel,Smith,57
+7272,549,70,3.5,1238321402,From Dusk Till Dawn,1996,Action|Comedy|Horror|Thriller,Dariel,Smith,57
+7273,549,104,2.5,1238320911,Happy Gilmore,1996,Comedy,Dariel,Smith,57
+7274,549,110,4.0,1238318795,Braveheart,1995,Action|Drama|War,Dariel,Smith,57
+7275,549,145,3.0,1238321461,Bad Boys,1995,Action|Comedy|Crime|Drama|Thriller,Dariel,Smith,57
+7276,549,150,4.0,1238319890,Apollo 13,1995,Adventure|Drama|IMAX,Dariel,Smith,57
+7277,549,151,4.0,1238321194,Rob Roy,1995,Action|Drama|Romance|War,Dariel,Smith,57
+7278,549,153,2.0,1238319963,Batman Forever,1995,Action|Adventure|Comedy|Crime,Dariel,Smith,57
+7279,549,158,2.5,1238321280,Casper,1995,Adventure|Children,Dariel,Smith,57
+7280,549,163,3.5,1238314773,Desperado,1995,Action|Romance|Western,Dariel,Smith,57
+7281,549,165,3.5,1238319952,Die Hard: With a Vengeance,1995,Action|Crime|Thriller,Dariel,Smith,57
+7282,549,172,2.0,1238321284,Johnny Mnemonic,1995,Action|Sci-Fi|Thriller,Dariel,Smith,57
+7283,549,173,2.0,1238321073,Judge Dredd,1995,Action|Crime|Sci-Fi,Dariel,Smith,57
+7284,549,180,3.0,1238322097,Mallrats,1995,Comedy|Romance,Dariel,Smith,57
+7285,549,185,2.0,1238320666,Net,1995,Action|Crime|Thriller,Dariel,Smith,57
+7286,549,186,3.5,1238321371,Nine Months,1995,Comedy|Romance,Dariel,Smith,57
+7287,549,216,2.5,1238322191,Billy Madison,1995,Comedy,Dariel,Smith,57
+7288,549,223,4.5,1238318822,Clerks,1994,Comedy,Dariel,Smith,57
+7289,549,231,4.0,1238319993,Dumb & Dumber (Dumb and Dumber),1994,Adventure|Comedy,Dariel,Smith,57
+7290,549,253,4.0,1238320073,Interview with the Vampire: The Vampire Chronicles,1994,Drama|Horror,Dariel,Smith,57
+7291,549,260,5.0,1238315224,Star Wars: Episode IV - A New Hope,1977,Action|Adventure|Sci-Fi,Dariel,Smith,57
+7292,549,288,3.5,1238320707,Natural Born Killers,1994,Action|Crime|Thriller,Dariel,Smith,57
+7293,549,293,4.5,1238316376,Léon: The Professional (a.k.a. The Professional) (Léon),1994,Action|Crime|Drama|Thriller,Dariel,Smith,57
+7294,549,296,5.0,1238318011,Pulp Fiction,1994,Comedy|Crime|Drama|Thriller,Dariel,Smith,57
+7295,549,317,3.0,1238320975,Santa Clause,1994,Comedy|Drama|Fantasy,Dariel,Smith,57
+7296,549,318,4.5,1238315175,Shawshank Redemption,1994,Crime|Drama,Dariel,Smith,57
+7297,549,338,2.0,1238330348,Virtuosity,1995,Action|Sci-Fi|Thriller,Dariel,Smith,57
+7298,549,344,3.5,1238319928,Ace Ventura: Pet Detective,1994,Comedy,Dariel,Smith,57
+7299,549,353,4.0,1238321004,Crow,1994,Action|Crime|Fantasy|Thriller,Dariel,Smith,57
+7300,549,356,3.5,1238319880,Forrest Gump,1994,Comedy|Drama|Romance|War,Dariel,Smith,57
+7301,549,364,4.5,1238319974,Lion King,1994,Adventure|Animation|Children|Drama|Musical|IMAX,Dariel,Smith,57
+7302,549,367,3.5,1238319997,Mask,1994,Action|Comedy|Crime|Fantasy,Dariel,Smith,57
+7303,549,377,4.5,1238319926,Speed,1994,Action|Romance|Thriller,Dariel,Smith,57
+7304,549,380,3.5,1238319918,True Lies,1994,Action|Adventure|Comedy|Romance|Thriller,Dariel,Smith,57
+7305,549,410,4.0,1238320857,Addams Family Values,1993,Children|Comedy|Fantasy,Dariel,Smith,57
+7306,549,432,3.0,1238321164,City Slickers II: The Legend of Curly's Gold,1994,Adventure|Comedy|Western,Dariel,Smith,57
+7307,549,434,2.5,1238320078,Cliffhanger,1993,Action|Adventure|Thriller,Dariel,Smith,57
+7308,549,457,4.5,1238318200,Fugitive,1993,Thriller,Dariel,Smith,57
+7309,549,466,3.0,1238314767,Hot Shots! Part Deux,1993,Action|Comedy|War,Dariel,Smith,57
+7310,549,471,3.5,1238321498,Hudsucker Proxy,1994,Comedy,Dariel,Smith,57
+7311,549,480,4.0,1238319885,Jurassic Park,1993,Action|Adventure|Sci-Fi|Thriller,Dariel,Smith,57
+7312,549,500,3.0,1238319983,Mrs. Doubtfire,1993,Comedy|Drama,Dariel,Smith,57
+7313,549,520,3.0,1238321136,Robin Hood: Men in Tights,1993,Comedy,Dariel,Smith,57
+7314,549,527,5.0,1238315336,Schindler's List,1993,Drama|War,Dariel,Smith,57
+7315,549,541,5.0,1238315252,Blade Runner,1982,Action|Sci-Fi|Thriller,Dariel,Smith,57
+7316,549,546,1.5,1238330077,Super Mario Bros.,1993,Action|Adventure|Children|Comedy|Fantasy|Sci-Fi,Dariel,Smith,57
+7317,549,552,3.0,1238321301,Three Musketeers,1993,Action|Adventure|Comedy|Romance,Dariel,Smith,57
+7318,549,586,4.0,1238320663,Home Alone,1990,Children|Comedy,Dariel,Smith,57
+7319,549,588,4.0,1238319921,Aladdin,1992,Adventure|Animation|Children|Comedy|Musical,Dariel,Smith,57
+7320,549,589,5.0,1238319263,Terminator 2: Judgment Day,1991,Action|Sci-Fi,Dariel,Smith,57
+7321,549,590,4.0,1238319896,Dances with Wolves,1990,Adventure|Drama|Western,Dariel,Smith,57
+7322,549,592,4.5,1238319892,Batman,1989,Action|Crime|Thriller,Dariel,Smith,57
+7323,549,593,5.0,1238318678,Silence of the Lambs,1991,Crime|Horror|Thriller,Dariel,Smith,57
+7324,549,608,5.0,1238315091,Fargo,1996,Comedy|Crime|Drama|Thriller,Dariel,Smith,57
+7325,549,647,3.5,1238321956,Courage Under Fire,1996,Action|Crime|Drama|War,Dariel,Smith,57
+7326,549,648,3.5,1238319935,Mission: Impossible,1996,Action|Adventure|Mystery|Thriller,Dariel,Smith,57
+7327,549,653,3.0,1238321051,Dragonheart,1996,Action|Adventure|Fantasy,Dariel,Smith,57
+7328,549,724,3.0,1238322037,Craft,1996,Drama|Fantasy|Horror|Thriller,Dariel,Smith,57
+7329,549,733,3.0,1238319990,Rock,1996,Action|Adventure|Thriller,Dariel,Smith,57
+7330,549,736,3.0,1238319977,Twister,1996,Action|Adventure|Romance|Thriller,Dariel,Smith,57
+7331,549,741,4.5,1238329879,Ghost in the Shell (Kôkaku kidôtai),1995,Animation|Sci-Fi,Dariel,Smith,57
+7332,549,778,4.5,1238319791,Trainspotting,1996,Comedy|Crime|Drama,Dariel,Smith,57
+7333,549,780,3.5,1238319901,Independence Day (a.k.a. ID4),1996,Action|Adventure|Sci-Fi|Thriller,Dariel,Smith,57
+7334,549,784,4.0,1238321093,Cable Guy,1996,Comedy|Thriller,Dariel,Smith,57
+7335,549,785,3.5,1238321638,Kingpin,1996,Comedy,Dariel,Smith,57
+7336,549,788,3.5,1238320845,Nutty Professor,1996,Comedy|Fantasy|Romance|Sci-Fi,Dariel,Smith,57
+7337,549,805,3.0,1238321409,Time to Kill,1996,Drama|Thriller,Dariel,Smith,57
+7338,549,836,2.0,1238330397,Chain Reaction,1996,Action|Adventure|Thriller,Dariel,Smith,57
+7339,549,852,3.5,1238321482,Tin Cup,1996,Comedy|Drama|Romance,Dariel,Smith,57
+7340,549,858,5.0,1238315094,Godfather,1972,Crime|Drama,Dariel,Smith,57
+7341,549,919,5.0,1238320761,Wizard of Oz,1939,Adventure|Children|Fantasy|Musical,Dariel,Smith,57
+7342,549,924,5.0,1238320748,2001: A Space Odyssey,1968,Adventure|Drama|Sci-Fi,Dariel,Smith,57
+7343,549,1020,3.0,1238322760,Cool Runnings,1993,Comedy,Dariel,Smith,57
+7344,549,1036,5.0,1238315821,Die Hard,1988,Action|Crime|Thriller,Dariel,Smith,57
+7345,549,1059,3.5,1238321696,William Shakespeare's Romeo + Juliet,1996,Drama|Romance,Dariel,Smith,57
+7346,549,1079,4.5,1238318172,Fish Called Wanda,1988,Comedy|Crime,Dariel,Smith,57
+7347,549,1080,4.5,1238319650,Monty Python's Life of Brian,1979,Comedy,Dariel,Smith,57
+7348,549,1089,4.5,1238318032,Reservoir Dogs,1992,Crime|Mystery|Thriller,Dariel,Smith,57
+7349,549,1090,5.0,1238318005,Platoon,1986,Drama|War,Dariel,Smith,57
+7350,549,1092,3.5,1238321551,Basic Instinct,1992,Crime|Mystery|Thriller,Dariel,Smith,57
+7351,549,1101,3.5,1238320837,Top Gun,1986,Action|Romance,Dariel,Smith,57
+7352,549,1136,5.0,1238318278,Monty Python and the Holy Grail,1975,Adventure|Comedy|Fantasy,Dariel,Smith,57
+7353,549,1196,5.0,1238318058,Star Wars: Episode V - The Empire Strikes Back,1980,Action|Adventure|Sci-Fi,Dariel,Smith,57
+7354,549,1198,5.0,1238315089,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark),1981,Action|Adventure,Dariel,Smith,57
+7355,549,1200,5.0,1238318099,Aliens,1986,Action|Adventure|Horror|Sci-Fi,Dariel,Smith,57
+7356,549,1203,5.0,1238315179,12 Angry Men,1957,Drama,Dariel,Smith,57
+7357,549,1207,5.0,1238315343,To Kill a Mockingbird,1962,Drama,Dariel,Smith,57
+7358,549,1208,5.0,1238315246,Apocalypse Now,1979,Action|Drama|War,Dariel,Smith,57
+7359,549,1210,4.5,1238319904,Star Wars: Episode VI - Return of the Jedi,1983,Action|Adventure|Sci-Fi,Dariel,Smith,57
+7360,549,1214,5.0,1238318097,Alien,1979,Horror|Sci-Fi,Dariel,Smith,57
+7361,549,1215,3.5,1238321459,Army of Darkness,1993,Action|Adventure|Comedy|Fantasy|Horror,Dariel,Smith,57
+7362,549,1220,4.5,1238319360,Blues Brothers,1980,Action|Comedy|Musical,Dariel,Smith,57
+7363,549,1222,4.5,1238316859,Full Metal Jacket,1987,Drama|War,Dariel,Smith,57
+7364,549,1240,5.0,1238318350,Terminator,1984,Action|Sci-Fi|Thriller,Dariel,Smith,57
+7365,549,1259,4.5,1238318055,Stand by Me,1986,Adventure|Drama,Dariel,Smith,57
+7366,549,1265,4.5,1238319532,Groundhog Day,1993,Comedy|Fantasy|Romance,Dariel,Smith,57
+7367,549,1270,4.5,1238318785,Back to the Future,1985,Adventure|Comedy|Sci-Fi,Dariel,Smith,57
+7368,549,1274,5.0,1238319325,Akira,1988,Action|Adventure|Animation|Sci-Fi,Dariel,Smith,57
+7369,549,1275,3.0,1238321560,Highlander,1986,Action|Adventure|Fantasy,Dariel,Smith,57
+7370,549,1291,4.0,1238318238,Indiana Jones and the Last Crusade,1989,Action|Adventure,Dariel,Smith,57
+7371,549,1320,3.0,1238321237,Alien³ (a.k.a. Alien 3),1992,Action|Horror|Sci-Fi|Thriller,Dariel,Smith,57
+7372,549,1339,3.5,1238321746,Dracula (Bram Stoker's Dracula),1992,Fantasy|Horror|Romance|Thriller,Dariel,Smith,57
+7373,549,1370,2.5,1238321102,Die Hard 2,1990,Action|Adventure|Thriller,Dariel,Smith,57
+7374,549,1385,3.0,1238329913,Under Siege,1992,Action|Drama|Thriller,Dariel,Smith,57
+7375,549,1391,3.0,1238320979,Mars Attacks!,1996,Action|Comedy|Sci-Fi,Dariel,Smith,57
+7376,549,1393,4.0,1238320762,Jerry Maguire,1996,Drama|Romance,Dariel,Smith,57
+7377,549,1407,4.5,1238320962,Scream,1996,Comedy|Horror|Mystery|Thriller,Dariel,Smith,57
+7378,549,1466,4.5,1238316835,Donnie Brasco,1997,Crime|Drama,Dariel,Smith,57
+7379,549,1476,3.0,1238329869,Private Parts,1997,Comedy|Drama,Dariel,Smith,57
+7380,549,1485,3.5,1238320952,Liar Liar,1997,Comedy,Dariel,Smith,57
+7381,549,1500,4.0,1238318505,Grosse Pointe Blank,1997,Comedy|Crime|Romance,Dariel,Smith,57
+7382,549,1517,4.0,1238320769,Austin Powers: International Man of Mystery,1997,Action|Adventure|Comedy,Dariel,Smith,57
+7383,549,1527,4.0,1238320702,Fifth Element,1997,Action|Adventure|Comedy|Sci-Fi,Dariel,Smith,57
+7384,549,1544,3.0,1238321181,Lost World: Jurassic Park,1997,Action|Adventure|Sci-Fi|Thriller,Dariel,Smith,57
+7385,549,1552,2.5,1238321212,Con Air,1997,Action|Adventure|Thriller,Dariel,Smith,57
+7386,549,1562,1.5,1238321963,Batman & Robin,1997,Action|Adventure|Fantasy|Thriller,Dariel,Smith,57
+7387,549,1580,3.5,1238320016,Men in Black (a.k.a. MIB),1997,Action|Comedy|Sci-Fi,Dariel,Smith,57
+7388,549,1586,2.5,1238322630,G.I. Jane,1997,Action|Drama,Dariel,Smith,57
+7389,549,1597,2.5,1238321622,Conspiracy Theory,1997,Drama|Mystery|Romance|Thriller,Dariel,Smith,57
+7390,549,1608,3.5,1238321177,Air Force One,1997,Action|Thriller,Dariel,Smith,57
+7391,549,1610,4.0,1238318220,Hunt for Red October,1990,Action|Adventure|Thriller,Dariel,Smith,57
+7392,549,1617,5.0,1238315752,L.A. Confidential,1997,Crime|Film-Noir|Mystery|Thriller,Dariel,Smith,57
+7393,549,1641,4.0,1238321024,Full Monty,1997,Comedy|Drama,Dariel,Smith,57
+7394,549,1653,4.0,1238320985,Gattaca,1997,Drama|Sci-Fi|Thriller,Dariel,Smith,57
+7395,549,1673,5.0,1238321261,Boogie Nights,1997,Drama,Dariel,Smith,57
+7396,549,1676,3.5,1238321124,Starship Troopers,1997,Action|Sci-Fi,Dariel,Smith,57
+7397,549,1682,4.5,1238320820,Truman Show,1998,Comedy|Drama|Sci-Fi,Dariel,Smith,57
+7398,549,1687,2.0,1238331007,Jackal,1997,Action|Thriller,Dariel,Smith,57
+7399,549,1690,3.5,1238321625,Alien: Resurrection,1997,Action|Horror|Sci-Fi,Dariel,Smith,57
+7400,549,1704,4.0,1238318488,Good Will Hunting,1997,Drama|Romance,Dariel,Smith,57
+7401,549,1721,4.5,1238320018,Titanic,1997,Drama|Romance,Dariel,Smith,57
+7402,549,1722,3.0,1238321470,Tomorrow Never Dies,1997,Action|Adventure|Thriller,Dariel,Smith,57
+7403,549,1732,4.5,1238320982,Big Lebowski,1998,Comedy|Crime,Dariel,Smith,57
+7404,549,1747,4.0,1238314873,Wag the Dog,1997,Comedy,Dariel,Smith,57
+7405,549,1748,4.5,1238318833,Dark City,1998,Adventure|Film-Noir|Sci-Fi|Thriller,Dariel,Smith,57
+7406,549,1779,2.5,1238330007,Sphere,1998,Sci-Fi|Thriller,Dariel,Smith,57
+7407,549,1784,4.0,1238320781,As Good as It Gets,1997,Comedy|Drama|Romance,Dariel,Smith,57
+7408,549,1805,3.5,1238322377,Wild Things,1998,Crime|Drama|Mystery|Thriller,Dariel,Smith,57
+7409,549,1831,2.0,1238322507,Lost in Space,1998,Action|Adventure|Sci-Fi,Dariel,Smith,57
+7410,549,1876,3.0,1238314832,Deep Impact,1998,Drama|Sci-Fi|Thriller,Dariel,Smith,57
+7411,549,1882,2.0,1238322442,Godzilla,1998,Action|Sci-Fi|Thriller,Dariel,Smith,57
+7412,549,1884,4.0,1238329899,Fear and Loathing in Las Vegas,1998,Adventure|Comedy|Drama,Dariel,Smith,57
+7413,549,1917,2.0,1238320799,Armageddon,1998,Action|Romance|Sci-Fi|Thriller,Dariel,Smith,57
+7414,549,1918,2.5,1238321980,Lethal Weapon 4,1998,Action|Comedy|Crime|Thriller,Dariel,Smith,57
+7415,549,1923,4.5,1238320715,There's Something About Mary,1998,Comedy|Romance,Dariel,Smith,57
+7416,549,1961,4.0,1238318619,Rain Man,1988,Drama,Dariel,Smith,57
+7417,549,1967,4.0,1238322325,Labyrinth,1986,Adventure|Fantasy|Musical,Dariel,Smith,57
+7418,549,1968,4.0,1238320810,Breakfast Club,1985,Comedy|Drama,Dariel,Smith,57
+7419,549,2000,4.0,1238319603,Lethal Weapon,1987,Action|Comedy|Crime|Drama,Dariel,Smith,57
+7420,549,2003,3.5,1238321556,Gremlins,1984,Comedy|Horror,Dariel,Smith,57
+7421,549,2006,3.5,1238321271,Mask of Zorro,1998,Action|Comedy|Romance,Dariel,Smith,57
+7422,549,2011,3.5,1238320928,Back to the Future Part II,1989,Adventure|Comedy|Sci-Fi,Dariel,Smith,57
+7423,549,2012,3.5,1238320869,Back to the Future Part III,1990,Adventure|Comedy|Sci-Fi|Western,Dariel,Smith,57
+7424,549,2053,2.5,1238331002,Honey,1992,Children|Comedy|Sci-Fi,Dariel,Smith,57
+7425,549,2054,4.0,1238320970,Honey,1989,Adventure|Children|Comedy|Fantasy|Sci-Fi,Dariel,Smith,57
+7426,549,2058,3.5,1238322018,Negotiator,1998,Action|Crime|Drama|Mystery|Thriller,Dariel,Smith,57
+7427,549,2081,4.5,1238321185,Little Mermaid,1989,Animation|Children|Comedy|Musical|Romance,Dariel,Smith,57
+7428,549,2115,3.5,1238320890,Indiana Jones and the Temple of Doom,1984,Action|Adventure|Fantasy,Dariel,Smith,57
+7429,549,2126,2.0,1238330542,Snake Eyes,1998,Action|Crime|Mystery|Thriller,Dariel,Smith,57
+7430,549,2150,3.5,1238321996,Gods Must Be Crazy,1980,Adventure|Comedy,Dariel,Smith,57
+7431,549,2161,4.0,1238321731,NeverEnding Story,1984,Adventure|Children|Fantasy,Dariel,Smith,57
+7432,549,2167,3.0,1238321536,Blade,1998,Action|Horror|Thriller,Dariel,Smith,57
+7433,549,2174,4.0,1238320865,Beetlejuice,1988,Comedy|Fantasy,Dariel,Smith,57
+7434,549,2194,4.5,1238316416,Untouchables,1987,Action|Crime|Drama,Dariel,Smith,57
+7435,549,2231,4.0,1238319714,Rounders,1998,Drama,Dariel,Smith,57
+7436,549,2268,3.5,1238321108,Few Good Men,1992,Crime|Drama|Thriller,Dariel,Smith,57
+7437,549,2273,3.5,1238321935,Rush Hour,1998,Action|Comedy|Crime|Thriller,Dariel,Smith,57
+7438,549,2278,3.5,1238321777,Ronin,1998,Action|Crime|Thriller,Dariel,Smith,57
+7439,549,2291,4.5,1238320898,Edward Scissorhands,1990,Drama|Fantasy|Romance,Dariel,Smith,57
+7440,549,2294,3.5,1238321712,Antz,1998,Adventure|Animation|Children|Comedy|Fantasy,Dariel,Smith,57
+7441,549,2302,3.5,1238321139,My Cousin Vinny,1992,Comedy,Dariel,Smith,57
+7442,549,2335,2.0,1238330086,Waterboy,1998,Comedy,Dariel,Smith,57
+7443,549,2353,3.0,1238321131,Enemy of the State,1998,Action|Thriller,Dariel,Smith,57
+7444,549,2391,4.5,1238318683,Simple Plan,1998,Crime|Drama|Thriller,Dariel,Smith,57
+7445,549,2406,4.0,1238321158,Romancing the Stone,1984,Action|Adventure|Comedy|Romance,Dariel,Smith,57
+7446,549,2490,2.5,1238322087,Payback,1999,Action|Thriller,Dariel,Smith,57
+7447,549,2502,4.0,1238318596,Office Space,1999,Comedy|Crime,Dariel,Smith,57
+7448,549,2539,3.5,1238321988,Analyze This,1999,Comedy,Dariel,Smith,57
+7449,549,2541,3.0,1238322134,Cruel Intentions,1999,Drama,Dariel,Smith,57
+7450,549,2542,4.0,1238318550,Lock,1998,Comedy|Crime|Thriller,Dariel,Smith,57
+7451,549,2571,5.0,1238318260,Matrix,1999,Action|Sci-Fi|Thriller,Dariel,Smith,57
+7452,549,2605,3.0,1238322176,Entrapment,1999,Crime|Thriller,Dariel,Smith,57
+7453,549,2616,3.0,1238329965,Dick Tracy,1990,Action|Crime,Dariel,Smith,57
+7454,549,2617,3.5,1238321020,Mummy,1999,Action|Adventure|Comedy|Fantasy|Horror|Thriller,Dariel,Smith,57
+7455,549,2628,2.5,1238320038,Star Wars: Episode I - The Phantom Menace,1999,Action|Adventure|Sci-Fi,Dariel,Smith,57
+7456,549,2683,3.0,1238320711,Austin Powers: The Spy Who Shagged Me,1999,Action|Adventure|Comedy,Dariel,Smith,57
+7457,549,2700,4.5,1238320965,South Park: Bigger,1999,Animation|Comedy|Musical,Dariel,Smith,57
+7458,549,2701,2.0,1238321567,Wild Wild West,1999,Action|Comedy|Sci-Fi|Western,Dariel,Smith,57
+7459,549,2706,3.0,1238320773,American Pie,1999,Comedy|Romance,Dariel,Smith,57
+7460,549,2710,4.0,1238320883,Blair Witch Project,1999,Drama|Horror|Thriller,Dariel,Smith,57
+7461,549,2712,4.0,1238321125,Eyes Wide Shut,1999,Drama|Mystery|Thriller,Dariel,Smith,57
+7462,549,2716,4.5,1238318899,Ghostbusters (a.k.a. Ghost Busters),1984,Action|Comedy|Sci-Fi,Dariel,Smith,57
+7463,549,2717,2.5,1238322346,Ghostbusters II,1989,Comedy|Fantasy|Sci-Fi,Dariel,Smith,57
+7464,549,2722,2.0,1238322453,Deep Blue Sea,1999,Action|Horror|Sci-Fi|Thriller,Dariel,Smith,57
+7465,549,2723,3.0,1238322178,Mystery Men,1999,Action|Comedy|Fantasy,Dariel,Smith,57
+7466,549,2762,4.0,1238318044,Sixth Sense,1999,Drama|Horror|Mystery,Dariel,Smith,57
+7467,549,2770,3.0,1238321630,Bowfinger,1999,Comedy,Dariel,Smith,57
+7468,549,2791,4.5,1238318093,Airplane!,1980,Comedy,Dariel,Smith,57
+7469,549,2797,4.5,1238320886,Big,1988,Comedy|Drama|Fantasy|Romance,Dariel,Smith,57
+7470,549,2805,2.0,1238330821,Mickey Blue Eyes,1999,Comedy|Romance,Dariel,Smith,57
+7471,549,2858,5.0,1238316526,American Beauty,1999,Drama|Romance,Dariel,Smith,57
+7472,549,2881,2.0,1238322371,Double Jeopardy,1999,Action|Crime|Drama|Thriller,Dariel,Smith,57
+7473,549,2890,4.5,1238314836,Three Kings,1999,Action|Adventure|Comedy|Drama|War,Dariel,Smith,57
+7474,549,2916,4.0,1238320861,Total Recall,1990,Action|Adventure|Sci-Fi|Thriller,Dariel,Smith,57
+7475,549,2918,4.5,1238318473,Ferris Bueller's Day Off,1986,Comedy,Dariel,Smith,57
+7476,549,2947,5.0,1238314870,Goldfinger,1964,Action|Adventure|Thriller,Dariel,Smith,57
+7477,549,2948,4.5,1238316856,From Russia with Love,1963,Action|Adventure|Thriller,Dariel,Smith,57
+7478,549,2949,4.5,1238316838,Dr. No,1962,Action|Adventure|Thriller,Dariel,Smith,57
+7479,549,2953,3.0,1238322781,Home Alone 2: Lost in New York,1992,Children|Comedy,Dariel,Smith,57
+7480,549,2959,4.5,1238318874,Fight Club,1999,Action|Crime|Drama|Thriller,Dariel,Smith,57
+7481,549,2987,4.5,1238320778,Who Framed Roger Rabbit?,1988,Adventure|Animation|Children|Comedy|Crime|Fantasy|Mystery,Dariel,Smith,57
+7482,549,2991,3.0,1238330828,Live and Let Die,1973,Action|Adventure|Thriller,Dariel,Smith,57
+7483,549,2997,5.0,1238318412,Being John Malkovich,1999,Comedy|Drama|Fantasy,Dariel,Smith,57
+7484,549,3000,5.0,1238322403,Princess Mononoke (Mononoke-hime),1997,Action|Adventure|Animation|Drama|Fantasy,Dariel,Smith,57
+7485,549,3052,3.5,1238321098,Dogma,1999,Adventure|Comedy|Fantasy,Dariel,Smith,57
+7486,549,3082,2.5,1238322154,World Is Not Enough,1999,Action|Adventure|Thriller,Dariel,Smith,57
+7487,549,3113,2.0,1238330353,End of Days,1999,Action|Fantasy|Horror|Mystery|Thriller,Dariel,Smith,57
+7488,549,3252,4.0,1238322569,Scent of a Woman,1992,Drama,Dariel,Smith,57
+7489,549,3253,4.0,1238321382,Wayne's World,1992,Comedy,Dariel,Smith,57
+7490,549,3254,3.0,1238330477,Wayne's World 2,1993,Comedy,Dariel,Smith,57
+7491,549,3255,4.0,1238321736,League of Their Own,1992,Comedy|Drama,Dariel,Smith,57
+7492,549,3256,3.0,1238322033,Patriot Games,1992,Action|Crime|Drama|Thriller,Dariel,Smith,57
+7493,549,3264,2.5,1238330708,Buffy the Vampire Slayer,1992,Action|Comedy|Horror,Dariel,Smith,57
+7494,549,3301,2.5,1238322784,Whole Nine Yards,2000,Comedy|Crime,Dariel,Smith,57
+7495,549,3448,4.0,1238321516,Good Morning,1987,Comedy|Drama|War,Dariel,Smith,57
+7496,549,3481,4.5,1238318208,High Fidelity,2000,Comedy|Drama|Romance,Dariel,Smith,57
+7497,549,3489,2.0,1238322289,Hook,1991,Adventure|Comedy|Fantasy,Dariel,Smith,57
+7498,549,3527,4.0,1238321363,Predator,1987,Action|Sci-Fi|Thriller,Dariel,Smith,57
+7499,549,3552,4.0,1238318800,Caddyshack,1980,Comedy,Dariel,Smith,57

@@ -1,8 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
-
 package com.proav.movie.recomendations;
 
 import com.proav.movie.recomendations.ManagerWorker.Manager;
@@ -10,7 +5,6 @@ import com.proav.movie.recomendations.utilidades.Divisor;
 import com.proav.movie.recomendations.utilidades.Expresion;
 import com.proav.movie.recomendations.utilidades.OperadorEnum;
 import java.util.ArrayList;
-import java.util.concurrent.Executor;
 
 /**
  * Sistema de recomendacion de peliculas
@@ -20,13 +14,13 @@ public class Main {
     public static void main(String[] args) {
         int numHilos = getNumHilos();
         // Probando con un archivo de pocos registros
-        String direccion = "data/out-users-8000.csv";
+        String direccion = "data/out-users-8000_v2.csv";
         Divisor.divideArchivos(numHilos, direccion);
         // Interprete envia las clausulas de filtrado....
         ArrayList<ArrayList<Expresion>> expresiones = getExpresionesFiltrado();
         // Realiza el filtrado sobre los workers
         Manager.filtraInformacion(numHilos, expresiones);
-    
+        
     }
     
     /**
@@ -43,7 +37,7 @@ public class Main {
      */
     public static ArrayList<ArrayList<Expresion>> getExpresionesFiltrado() {
         ArrayList<ArrayList<Expresion>> expresiones = new ArrayList<ArrayList<Expresion>>();
-        OperadorEnum op = OperadorEnum.IGUALDAD;
+        OperadorEnum op = OperadorEnum.IGUALDAD; 
         Expresion expresion = new Expresion(op, "title", "hello world");
         ArrayList<Expresion> filtrado = new ArrayList<Expresion>();
         filtrado.add(expresion);

@@ -1,0 +1,501 @@
+,userId,movieId,rating,timestamp,title,year,genres,name,lastname,age
+5500,334,165,3.0,837750990,Die Hard: With a Vengeance,1995,Action|Crime|Thriller,Ezequiel,Smith,37
+5501,334,185,3.0,837751056,Net,1995,Action|Crime|Thriller,Ezequiel,Smith,37
+5502,334,231,3.0,837751011,Dumb & Dumber (Dumb and Dumber),1994,Adventure|Comedy,Ezequiel,Smith,37
+5503,334,253,3.0,837751056,Interview with the Vampire: The Vampire Chronicles,1994,Drama|Horror,Ezequiel,Smith,37
+5504,334,288,4.0,837751080,Natural Born Killers,1994,Action|Crime|Thriller,Ezequiel,Smith,37
+5505,334,292,4.0,837751032,Outbreak,1995,Action|Drama|Sci-Fi|Thriller,Ezequiel,Smith,37
+5506,334,296,5.0,837750965,Pulp Fiction,1994,Comedy|Crime|Drama|Thriller,Ezequiel,Smith,37
+5507,334,316,4.0,837751011,Stargate,1994,Action|Adventure|Sci-Fi,Ezequiel,Smith,37
+5508,334,318,5.0,837751011,Shawshank Redemption,1994,Crime|Drama,Ezequiel,Smith,37
+5509,334,329,3.0,837751011,Star Trek: Generations,1994,Adventure|Drama|Sci-Fi,Ezequiel,Smith,37
+5510,334,344,3.0,837750990,Ace Ventura: Pet Detective,1994,Comedy,Ezequiel,Smith,37
+5511,334,349,4.0,837750990,Clear and Present Danger,1994,Action|Crime|Drama|Thriller,Ezequiel,Smith,37
+5512,334,356,4.0,837751080,Forrest Gump,1994,Comedy|Drama|Romance|War,Ezequiel,Smith,37
+5513,334,364,4.0,837751114,Lion King,1994,Adventure|Animation|Children|Drama|Musical|IMAX,Ezequiel,Smith,37
+5514,334,367,3.0,837751133,Mask,1994,Action|Comedy|Crime|Fantasy,Ezequiel,Smith,37
+5515,334,380,1.0,837750965,True Lies,1994,Action|Adventure|Comedy|Romance|Thriller,Ezequiel,Smith,37
+5516,334,410,3.0,837751080,Addams Family Values,1993,Children|Comedy|Fantasy,Ezequiel,Smith,37
+5517,334,420,3.0,837751167,Beverly Hills Cop III,1994,Action|Comedy|Crime|Thriller,Ezequiel,Smith,37
+5518,334,434,2.0,837751032,Cliffhanger,1993,Action|Adventure|Thriller,Ezequiel,Smith,37
+5519,334,454,3.0,837751114,Firm,1993,Drama|Thriller,Ezequiel,Smith,37
+5520,334,457,3.0,837751033,Fugitive,1993,Thriller,Ezequiel,Smith,37
+5521,334,480,3.0,837751114,Jurassic Park,1993,Action|Adventure|Sci-Fi|Thriller,Ezequiel,Smith,37
+5522,334,588,5.0,837750990,Aladdin,1992,Adventure|Animation|Children|Comedy|Musical,Ezequiel,Smith,37
+5523,334,589,3.0,837751167,Terminator 2: Judgment Day,1991,Action|Sci-Fi,Ezequiel,Smith,37
+5524,334,590,3.0,837750965,Dances with Wolves,1990,Adventure|Drama|Western,Ezequiel,Smith,37
+5525,334,592,3.0,837750965,Batman,1989,Action|Crime|Thriller,Ezequiel,Smith,37
+5526,334,593,3.0,837751032,Silence of the Lambs,1991,Crime|Horror|Thriller,Ezequiel,Smith,37
+5527,334,273,4.0,837751549,Mary Shelley's Frankenstein (Frankenstein),1994,Drama|Horror|Sci-Fi,Ezequiel,Smith,37
+5528,334,515,5.0,837751211,Remains of the Day,1993,Drama|Romance,Ezequiel,Smith,37
+5529,334,357,5.0,837751211,Four Weddings and a Funeral,1994,Comedy|Romance,Ezequiel,Smith,37
+5530,334,18,4.0,837751431,Four Rooms,1995,Comedy,Ezequiel,Smith,37
+5531,334,665,5.0,837751345,Underground,1995,Comedy|Drama|War,Ezequiel,Smith,37
+5532,334,58,5.0,837751226,Postman,1994,Comedy|Drama|Romance,Ezequiel,Smith,37
+5533,334,319,5.0,837751243,Shallow Grave,1994,Comedy|Drama|Thriller,Ezequiel,Smith,37
+5534,334,718,3.0,837751412,Visitors,1993,Comedy|Fantasy|Sci-Fi,Ezequiel,Smith,37
+5535,335,307,4.0,837063267,Three Colors: Blue (Trois couleurs: Bleu),1993,Drama,Jake,Smith,47
+5536,335,6,5.0,837063081,Heat,1995,Action|Crime|Thriller,Jake,Smith,47
+5537,335,10,3.0,837062784,GoldenEye,1995,Action|Adventure|Thriller,Jake,Smith,47
+5538,335,47,5.0,837062810,Seven (a.k.a. Se7en),1995,Mystery|Thriller,Jake,Smith,47
+5539,335,95,3.0,837062998,Broken Arrow,1996,Action|Adventure|Thriller,Jake,Smith,47
+5540,335,110,3.0,837062810,Braveheart,1995,Action|Drama|War,Jake,Smith,47
+5541,335,150,4.0,837062698,Apollo 13,1995,Adventure|Drama|IMAX,Jake,Smith,47
+5542,335,165,3.0,837062727,Die Hard: With a Vengeance,1995,Action|Crime|Thriller,Jake,Smith,47
+5543,335,172,3.0,837062983,Johnny Mnemonic,1995,Action|Sci-Fi|Thriller,Jake,Smith,47
+5544,335,315,2.0,837062893,Specialist,1994,Action|Drama|Thriller,Jake,Smith,47
+5545,335,316,2.0,837062747,Stargate,1994,Action|Adventure|Sci-Fi,Jake,Smith,47
+5546,335,344,4.0,837062727,Ace Ventura: Pet Detective,1994,Comedy,Jake,Smith,47
+5547,335,356,5.0,837062823,Forrest Gump,1994,Comedy|Drama|Romance|War,Jake,Smith,47
+5548,335,364,4.0,837062841,Lion King,1994,Adventure|Animation|Children|Drama|Musical|IMAX,Jake,Smith,47
+5549,335,370,4.0,837063163,Naked Gun 33 1/3: The Final Insult,1994,Action|Comedy,Jake,Smith,47
+5550,335,377,4.0,837062893,Speed,1994,Action|Romance|Thriller,Jake,Smith,47
+5551,335,434,3.0,837062772,Cliffhanger,1993,Action|Adventure|Thriller,Jake,Smith,47
+5552,335,466,4.0,837063188,Hot Shots! Part Deux,1993,Action|Comedy|War,Jake,Smith,47
+5553,335,480,3.0,837062841,Jurassic Park,1993,Action|Adventure|Sci-Fi|Thriller,Jake,Smith,47
+5554,335,485,3.0,837063163,Last Action Hero,1993,Action|Adventure|Comedy|Fantasy,Jake,Smith,47
+5555,335,500,4.0,837062911,Mrs. Doubtfire,1993,Comedy|Drama,Jake,Smith,47
+5556,335,539,4.0,837062942,Sleepless in Seattle,1993,Comedy|Drama|Romance,Jake,Smith,47
+5557,335,552,3.0,837063137,Three Musketeers,1993,Action|Adventure|Comedy|Romance,Jake,Smith,47
+5558,335,586,3.0,837062957,Home Alone,1990,Children|Comedy,Jake,Smith,47
+5559,335,587,3.0,837062942,Ghost,1990,Comedy|Drama|Fantasy|Romance|Thriller,Jake,Smith,47
+5560,335,589,5.0,837062877,Terminator 2: Judgment Day,1991,Action|Sci-Fi,Jake,Smith,47
+5561,335,590,4.0,837062698,Dances with Wolves,1990,Adventure|Drama|Western,Jake,Smith,47
+5562,335,592,3.0,837062697,Batman,1989,Action|Crime|Thriller,Jake,Smith,47
+5563,335,593,5.0,837062772,Silence of the Lambs,1991,Crime|Horror|Thriller,Jake,Smith,47
+5564,335,597,4.0,837062942,Pretty Woman,1990,Comedy|Romance,Jake,Smith,47
+5565,335,733,3.0,837063319,Rock,1996,Action|Adventure|Thriller,Jake,Smith,47
+5566,335,224,4.0,837063023,Don Juan DeMarco,1995,Comedy|Drama|Romance,Jake,Smith,47
+5567,335,337,5.0,837062911,What's Eating Gilbert Grape,1993,Drama,Jake,Smith,47
+5568,335,531,3.0,837063297,Secret Garden,1993,Children|Drama,Jake,Smith,47
+5569,335,299,4.0,837063434,Priest,1994,Drama,Jake,Smith,47
+5570,335,534,4.0,837063358,Shadowlands,1993,Drama|Romance,Jake,Smith,47
+5571,335,551,4.0,837063023,Nightmare Before Christmas,1993,Animation|Children|Fantasy|Musical,Jake,Smith,47
+5572,335,105,5.0,837063066,Bridges of Madison County,1995,Drama|Romance,Jake,Smith,47
+5573,335,17,4.0,837062957,Sense and Sensibility,1995,Drama|Romance,Jake,Smith,47
+5574,335,357,5.0,837062957,Four Weddings and a Funeral,1994,Comedy|Romance,Jake,Smith,47
+5575,335,497,4.0,837063137,Much Ado About Nothing,1993,Comedy|Romance,Jake,Smith,47
+5576,335,540,3.0,837063267,Sliver,1993,Thriller,Jake,Smith,47
+5577,335,236,4.0,837062911,French Kiss,1995,Action|Comedy|Romance,Jake,Smith,47
+5578,335,383,3.0,837063282,Wyatt Earp,1994,Western,Jake,Smith,47
+5579,335,535,5.0,837063434,Short Cuts,1993,Drama,Jake,Smith,47
+5580,335,475,4.0,837063282,In the Name of the Father,1993,Drama,Jake,Smith,47
+5581,335,58,5.0,837063176,Postman,1994,Comedy|Drama|Romance,Jake,Smith,47
+5582,335,509,5.0,837062998,Piano,1993,Drama|Romance,Jake,Smith,47
+5583,335,550,3.0,837063388,Threesome,1994,Comedy|Romance,Jake,Smith,47
+5584,335,46,4.0,837063449,How to Make an American Quilt,1995,Drama|Romance,Jake,Smith,47
+5585,360,307,4.0,840252921,Three Colors: Blue (Trois couleurs: Bleu),1993,Drama,Hector,Smith,50
+5586,360,170,5.0,840252869,Hackers,1995,Action|Adventure|Crime|Thriller,Hector,Smith,50
+5587,360,32,5.0,840252571,Twelve Monkeys (a.k.a. 12 Monkeys),1995,Mystery|Sci-Fi|Thriller,Hector,Smith,50
+5588,360,39,5.0,840252571,Clueless,1995,Comedy|Romance,Hector,Smith,50
+5589,360,41,5.0,840253040,Richard III,1995,Drama|War,Hector,Smith,50
+5590,360,150,4.0,840252235,Apollo 13,1995,Adventure|Drama|IMAX,Hector,Smith,50
+5591,360,153,5.0,840252338,Batman Forever,1995,Action|Adventure|Comedy|Crime,Hector,Smith,50
+5592,360,165,3.0,840252338,Die Hard: With a Vengeance,1995,Action|Crime|Thriller,Hector,Smith,50
+5593,360,296,3.0,840252235,Pulp Fiction,1994,Comedy|Crime|Drama|Thriller,Hector,Smith,50
+5594,360,316,2.0,840252436,Stargate,1994,Action|Adventure|Sci-Fi,Hector,Smith,50
+5595,360,318,5.0,840252466,Shawshank Redemption,1994,Crime|Drama,Hector,Smith,50
+5596,360,329,4.0,840252466,Star Trek: Generations,1994,Adventure|Drama|Sci-Fi,Hector,Smith,50
+5597,360,349,3.0,840252338,Clear and Present Danger,1994,Action|Crime|Drama|Thriller,Hector,Smith,50
+5598,360,353,5.0,840252701,Crow,1994,Action|Crime|Fantasy|Thriller,Hector,Smith,50
+5599,360,380,3.0,840252235,True Lies,1994,Action|Adventure|Comedy|Romance|Thriller,Hector,Smith,50
+5600,360,410,3.0,840252515,Addams Family Values,1993,Children|Comedy|Fantasy,Hector,Smith,50
+5601,360,442,4.0,840252638,Demolition Man,1993,Action|Adventure|Sci-Fi,Hector,Smith,50
+5602,360,471,5.0,840252823,Hudsucker Proxy,1994,Comedy,Hector,Smith,50
+5603,360,480,4.0,840252489,Jurassic Park,1993,Action|Adventure|Sci-Fi|Thriller,Hector,Smith,50
+5604,360,589,4.0,840252539,Terminator 2: Judgment Day,1991,Action|Sci-Fi,Hector,Smith,50
+5605,360,590,3.0,840252234,Dances with Wolves,1990,Adventure|Drama|Western,Hector,Smith,50
+5606,360,592,5.0,840252234,Batman,1989,Action|Crime|Thriller,Hector,Smith,50
+5607,360,593,5.0,840252436,Silence of the Lambs,1991,Crime|Horror|Thriller,Hector,Smith,50
+5608,360,595,4.0,840252436,Beauty and the Beast,1991,Animation|Children|Fantasy|Musical|Romance|IMAX,Hector,Smith,50
+5609,360,597,3.0,840252582,Pretty Woman,1990,Comedy|Romance,Hector,Smith,50
+5610,360,608,3.0,840252774,Fargo,1996,Comedy|Crime|Drama|Thriller,Hector,Smith,50
+5611,360,648,3.0,840252735,Mission: Impossible,1996,Action|Adventure|Mystery|Thriller,Hector,Smith,50
+5612,360,924,4.0,840253561,2001: A Space Odyssey,1968,Adventure|Drama|Sci-Fi,Hector,Smith,50
+5613,360,728,5.0,840253277,Cold Comfort Farm,1995,Comedy,Hector,Smith,50
+5614,360,1041,3.0,848417284,Secrets & Lies,1996,Drama,Hector,Smith,50
+5615,360,52,5.0,840252973,Mighty Aphrodite,1995,Comedy|Drama|Romance,Hector,Smith,50
+5616,360,551,5.0,840252687,Nightmare Before Christmas,1993,Animation|Children|Fantasy|Musical,Hector,Smith,50
+5617,360,903,5.0,840253605,Vertigo,1958,Drama|Mystery|Romance|Thriller,Hector,Smith,50
+5618,360,904,4.0,840253605,Rear Window,1954,Mystery|Thriller,Hector,Smith,50
+5619,360,908,5.0,840253587,North by Northwest,1959,Action|Adventure|Mystery|Romance|Thriller,Hector,Smith,50
+5620,360,912,4.0,840253587,Casablanca,1942,Drama|Romance,Hector,Smith,50
+5621,360,1148,5.0,848417150,Wallace & Gromit: The Wrong Trousers,1993,Animation|Children|Comedy|Crime,Hector,Smith,50
+5622,360,1073,3.0,848416380,Willy Wonka & the Chocolate Factory,1971,Children|Comedy|Fantasy|Musical,Hector,Smith,50
+5623,360,247,4.0,840252953,Heavenly Creatures,1994,Crime|Drama,Hector,Smith,50
+5624,360,914,3.0,840253615,My Fair Lady,1964,Comedy|Drama|Musical|Romance,Hector,Smith,50
+5625,360,928,4.0,840253665,Rebecca,1940,Drama|Mystery|Romance|Thriller,Hector,Smith,50
+5626,360,965,5.0,840253648,39 Steps,1935,Drama|Mystery|Thriller,Hector,Smith,50
+5627,360,29,5.0,840253323,City of Lost Children,1995,Adventure|Drama|Fantasy|Mystery|Sci-Fi,Hector,Smith,50
+5628,360,82,4.0,840253236,Antonia's Line (Antonia),1995,Comedy|Drama,Hector,Smith,50
+5629,360,319,5.0,840252887,Shallow Grave,1994,Comedy|Drama|Thriller,Hector,Smith,50
+5630,360,30,4.0,840253249,Shanghai Triad (Yao a yao yao dao waipo qiao),1995,Crime|Drama,Hector,Smith,50
+5631,360,952,3.0,840253743,Around the World in 80 Days,1956,Adventure|Comedy,Hector,Smith,50
+5632,360,178,4.0,840253311,Love & Human Remains,1993,Comedy|Drama,Hector,Smith,50
+5633,360,55,2.0,840253427,Georgia,1995,Drama,Hector,Smith,50
+5634,365,307,5.0,840625157,Three Colors: Blue (Trois couleurs: Bleu),1993,Drama,Elian,Smith,32
+5635,365,150,3.0,840624803,Apollo 13,1995,Adventure|Drama|IMAX,Elian,Smith,32
+5636,365,153,1.0,840624834,Batman Forever,1995,Action|Adventure|Comedy|Crime,Elian,Smith,32
+5637,365,165,1.0,840624834,Die Hard: With a Vengeance,1995,Action|Crime|Thriller,Elian,Smith,32
+5638,365,296,5.0,840624803,Pulp Fiction,1994,Comedy|Crime|Drama|Thriller,Elian,Smith,32
+5639,365,344,1.0,840624834,Ace Ventura: Pet Detective,1994,Comedy,Elian,Smith,32
+5640,365,349,1.0,840624834,Clear and Present Danger,1994,Action|Crime|Drama|Thriller,Elian,Smith,32
+5641,365,380,1.0,840624804,True Lies,1994,Action|Adventure|Comedy|Romance|Thriller,Elian,Smith,32
+5642,365,588,2.0,840624834,Aladdin,1992,Adventure|Animation|Children|Comedy|Musical,Elian,Smith,32
+5643,365,590,3.0,840624803,Dances with Wolves,1990,Adventure|Drama|Western,Elian,Smith,32
+5644,365,515,5.0,840624911,Remains of the Day,1993,Drama|Romance,Elian,Smith,32
+5645,365,17,5.0,840624911,Sense and Sensibility,1995,Drama|Romance,Elian,Smith,32
+5646,365,232,5.0,840625121,Eat Drink Man Woman (Yin shi nan nu),1994,Comedy|Drama|Romance,Elian,Smith,32
+5647,365,265,5.0,840624911,Like Water for Chocolate (Como agua para chocolate),1992,Drama|Fantasy|Romance,Elian,Smith,32
+5648,365,272,5.0,840624959,Madness of King George,1994,Comedy|Drama,Elian,Smith,32
+5649,365,468,4.0,840624958,Englishman Who Went Up a Hill But Came Down a Mountain,1995,Comedy|Romance,Elian,Smith,32
+5650,365,342,5.0,840624958,Muriel's Wedding,1994,Comedy,Elian,Smith,32
+5651,365,345,3.0,840625121,Adventures of Priscilla,1994,Comedy|Drama,Elian,Smith,32
+5652,365,357,4.0,840624911,Four Weddings and a Funeral,1994,Comedy|Romance,Elian,Smith,32
+5653,365,497,3.0,840624958,Much Ado About Nothing,1993,Comedy|Romance,Elian,Smith,32
+5654,365,213,5.0,840625188,Burnt by the Sun (Utomlyonnye solntsem),1994,Drama,Elian,Smith,32
+5655,365,154,4.0,840625188,Beauty of the Day (Belle de jour),1967,Drama,Elian,Smith,32
+5656,365,306,5.0,840625157,Three Colors: Red (Trois couleurs: Rouge),1994,Drama,Elian,Smith,32
+5657,365,326,5.0,840625188,To Live (Huozhe),1994,Drama,Elian,Smith,32
+5658,365,58,5.0,840624958,Postman,1994,Comedy|Drama|Romance,Elian,Smith,32
+5659,365,308,5.0,840625157,Three Colors: White (Trzy kolory: Bialy),1994,Comedy|Drama,Elian,Smith,32
+5660,365,314,3.0,840625157,Secret of Roan Inish,1994,Children|Drama|Fantasy|Mystery,Elian,Smith,32
+5661,365,446,5.0,840625157,Farewell My Concubine (Ba wang bie ji),1993,Drama|Romance,Elian,Smith,32
+5662,365,715,4.0,840625216,Horseman on the Roof,1995,Drama|Romance,Elian,Smith,32
+5663,365,509,4.0,840624911,Piano,1993,Drama|Romance,Elian,Smith,32
+5664,365,28,5.0,840625121,Persuasion,1995,Drama|Romance,Elian,Smith,32
+5665,365,35,5.0,840625337,Carrington,1995,Drama|Romance,Elian,Smith,32
+5666,365,321,3.0,840625262,Strawberry and Chocolate (Fresa y chocolate),1993,Drama,Elian,Smith,32
+5667,365,615,5.0,840625368,Bread and Chocolate (Pane e cioccolata),1973,Comedy|Drama,Elian,Smith,32
+5668,365,824,5.0,840625216,Kaspar Hauser,1993,Drama|Mystery,Elian,Smith,32
+5669,399,307,3.0,866132025,Three Colors: Blue (Trois couleurs: Bleu),1993,Drama,Archie,Smith,64
+5670,399,1091,3.0,866205977,Weekend at Bernie's,1989,Comedy,Archie,Smith,64
+5671,399,1186,3.0,866205995,Sex,1989,Drama,Archie,Smith,64
+5672,399,1296,4.0,866204964,Room with a View,1986,Drama|Romance,Archie,Smith,64
+5673,399,1221,5.0,866132369,Godfather: Part II,1974,Crime|Drama,Archie,Smith,64
+5674,399,1,4.0,866130875,Toy Story,1995,Adventure|Animation|Children|Comedy|Fantasy,Archie,Smith,64
+5675,399,6,4.0,866130902,Heat,1995,Action|Crime|Thriller,Archie,Smith,64
+5676,399,10,4.0,866132814,GoldenEye,1995,Action|Adventure|Thriller,Archie,Smith,64
+5677,399,11,5.0,866132398,American President,1995,Comedy|Drama|Romance,Archie,Smith,64
+5678,399,62,4.0,866130875,Mr. Holland's Opus,1995,Drama,Archie,Smith,64
+5679,399,104,4.0,866130933,Happy Gilmore,1996,Comedy,Archie,Smith,64
+5680,399,110,4.0,866132491,Braveheart,1995,Action|Drama|War,Archie,Smith,64
+5681,399,141,3.0,866130875,Birdcage,1996,Comedy,Archie,Smith,64
+5682,399,165,3.0,866206161,Die Hard: With a Vengeance,1995,Action|Crime|Thriller,Archie,Smith,64
+5683,399,185,4.0,866204060,Net,1995,Action|Crime|Thriller,Archie,Smith,64
+5684,399,204,3.0,866205025,Under Siege 2: Dark Territory,1995,Action,Archie,Smith,64
+5685,399,260,4.0,866130902,Star Wars: Episode IV - A New Hope,1977,Action|Adventure|Sci-Fi,Archie,Smith,64
+5686,399,317,4.0,866204850,Santa Clause,1994,Comedy|Drama|Fantasy,Archie,Smith,64
+5687,399,339,5.0,866204060,While You Were Sleeping,1995,Comedy|Romance,Archie,Smith,64
+5688,399,349,4.0,866132869,Clear and Present Danger,1994,Action|Crime|Drama|Thriller,Archie,Smith,64
+5689,399,350,4.0,866205025,Client,1994,Drama|Mystery|Thriller,Archie,Smith,64
+5690,399,356,5.0,866132516,Forrest Gump,1994,Comedy|Drama|Romance|War,Archie,Smith,64
+5691,399,364,4.0,866132633,Lion King,1994,Adventure|Animation|Children|Drama|Musical|IMAX,Archie,Smith,64
+5692,399,367,4.0,866131895,Mask,1994,Action|Comedy|Crime|Fantasy,Archie,Smith,64
+5693,399,368,4.0,866132137,Maverick,1994,Adventure|Comedy|Western,Archie,Smith,64
+5694,399,377,4.0,866207820,Speed,1994,Action|Romance|Thriller,Archie,Smith,64
+5695,399,410,4.0,866207383,Addams Family Values,1993,Children|Comedy|Fantasy,Archie,Smith,64
+5696,399,432,3.0,866206879,City Slickers II: The Legend of Curly's Gold,1994,Adventure|Comedy|Western,Archie,Smith,64
+5697,399,434,4.0,866204984,Cliffhanger,1993,Action|Adventure|Thriller,Archie,Smith,64
+5698,399,442,4.0,866205058,Demolition Man,1993,Action|Adventure|Sci-Fi,Archie,Smith,64
+5699,399,457,4.0,866132369,Fugitive,1993,Thriller,Archie,Smith,64
+5700,399,474,4.0,866132196,In the Line of Fire,1993,Action|Thriller,Archie,Smith,64
+5701,399,480,3.0,866206210,Jurassic Park,1993,Action|Adventure|Sci-Fi|Thriller,Archie,Smith,64
+5702,399,500,4.0,866132369,Mrs. Doubtfire,1993,Comedy|Drama,Archie,Smith,64
+5703,399,527,3.0,866131895,Schindler's List,1993,Drama|War,Archie,Smith,64
+5704,399,539,4.0,866132786,Sleepless in Seattle,1993,Comedy|Drama|Romance,Archie,Smith,64
+5705,399,541,5.0,866132025,Blade Runner,1982,Action|Sci-Fi|Thriller,Archie,Smith,64
+5706,399,586,4.0,866204218,Home Alone,1990,Children|Comedy,Archie,Smith,64
+5707,399,587,4.0,866204895,Ghost,1990,Comedy|Drama|Fantasy|Romance|Thriller,Archie,Smith,64
+5708,399,588,4.0,866131924,Aladdin,1992,Adventure|Animation|Children|Comedy|Musical,Archie,Smith,64
+5709,399,589,3.0,866132734,Terminator 2: Judgment Day,1991,Action|Sci-Fi,Archie,Smith,64
+5710,399,590,3.0,866204142,Dances with Wolves,1990,Adventure|Drama|Western,Archie,Smith,64
+5711,399,593,3.0,866208175,Silence of the Lambs,1991,Crime|Horror|Thriller,Archie,Smith,64
+5712,399,595,4.0,866206060,Beauty and the Beast,1991,Animation|Children|Fantasy|Musical|Romance|IMAX,Archie,Smith,64
+5713,399,597,5.0,866204024,Pretty Woman,1990,Comedy|Romance,Archie,Smith,64
+5714,399,648,4.0,866130875,Mission: Impossible,1996,Action|Adventure|Mystery|Thriller,Archie,Smith,64
+5715,399,733,4.0,866130902,Rock,1996,Action|Adventure|Thriller,Archie,Smith,64
+5716,399,780,4.0,866130875,Independence Day (a.k.a. ID4),1996,Action|Adventure|Sci-Fi|Thriller,Archie,Smith,64
+5717,399,786,4.0,866130902,Eraser,1996,Action|Drama|Thriller,Archie,Smith,64
+5718,399,805,4.0,866130956,Time to Kill,1996,Drama|Thriller,Archie,Smith,64
+5719,399,858,5.0,866130982,Godfather,1972,Crime|Drama,Archie,Smith,64
+5720,399,919,3.0,866131990,Wizard of Oz,1939,Adventure|Children|Fantasy|Musical,Archie,Smith,64
+5721,399,1036,4.0,866132057,Die Hard,1988,Action|Crime|Thriller,Archie,Smith,64
+5722,399,1079,3.0,866131837,Fish Called Wanda,1988,Comedy|Crime,Archie,Smith,64
+5723,399,1088,4.0,866204114,Dirty Dancing,1987,Drama|Musical|Romance,Archie,Smith,64
+5724,399,1089,1.0,866132615,Reservoir Dogs,1992,Crime|Mystery|Thriller,Archie,Smith,64
+5725,399,1092,4.0,866133012,Basic Instinct,1992,Crime|Mystery|Thriller,Archie,Smith,64
+5726,399,1127,4.0,866132556,Abyss,1989,Action|Adventure|Sci-Fi|Thriller,Archie,Smith,64
+5727,399,1196,4.0,866131837,Star Wars: Episode V - The Empire Strikes Back,1980,Action|Adventure|Sci-Fi,Archie,Smith,64
+5728,399,1198,4.0,866131837,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark),1981,Action|Adventure,Archie,Smith,64
+5729,399,1203,5.0,866131959,12 Angry Men,1957,Drama,Archie,Smith,64
+5730,399,1207,5.0,866132090,To Kill a Mockingbird,1962,Drama,Archie,Smith,64
+5731,399,1210,4.0,866130956,Star Wars: Episode VI - Return of the Jedi,1983,Action|Adventure|Sci-Fi,Archie,Smith,64
+5732,399,1240,4.0,866131959,Terminator,1984,Action|Sci-Fi|Thriller,Archie,Smith,64
+5733,399,1265,5.0,866132171,Groundhog Day,1993,Comedy|Fantasy|Romance,Archie,Smith,64
+5734,399,1270,4.0,866204024,Back to the Future,1985,Adventure|Comedy|Sci-Fi,Archie,Smith,64
+5735,399,1275,4.0,866207860,Highlander,1986,Action|Adventure|Fantasy,Archie,Smith,64
+5736,399,1291,4.0,866131863,Indiana Jones and the Last Crusade,1989,Action|Adventure,Archie,Smith,64
+5737,399,1370,3.0,866132844,Die Hard 2,1990,Action|Adventure|Thriller,Archie,Smith,64
+5738,399,1385,4.0,866132734,Under Siege,1992,Action|Drama|Thriller,Archie,Smith,64
+5739,399,1396,4.0,866132025,Sneakers,1992,Action|Comedy|Crime|Drama|Sci-Fi,Archie,Smith,64
+5740,399,1527,4.0,866131282,Fifth Element,1997,Action|Adventure|Comedy|Sci-Fi,Archie,Smith,64
+5741,399,531,4.0,866205922,Secret Garden,1993,Children|Drama,Archie,Smith,64
+5742,399,3,3.0,866131705,Grumpier Old Men,1995,Comedy|Romance,Archie,Smith,64
+5743,399,7,4.0,866130933,Sabrina,1995,Comedy|Romance,Archie,Smith,64
+5744,399,140,3.0,866130982,Up Close and Personal,1996,Drama|Romance,Archie,Smith,64
+5745,399,837,3.0,866132734,Matilda,1996,Children|Comedy|Fantasy,Archie,Smith,64
+5746,399,902,5.0,866132556,Breakfast at Tiffany's,1961,Drama|Romance,Archie,Smith,64
+5747,399,903,4.0,866207889,Vertigo,1958,Drama|Mystery|Romance|Thriller,Archie,Smith,64
+5748,399,904,5.0,866131896,Rear Window,1954,Mystery|Thriller,Archie,Smith,64
+5749,399,908,5.0,866131924,North by Northwest,1959,Action|Adventure|Mystery|Romance|Thriller,Archie,Smith,64
+5750,399,912,5.0,866131802,Casablanca,1942,Drama|Romance,Archie,Smith,64
+5751,399,913,4.0,866132090,Maltese Falcon,1941,Film-Noir|Mystery,Archie,Smith,64
+5752,399,916,5.0,866132786,Roman Holiday,1953,Comedy|Drama|Romance,Archie,Smith,64
+5753,399,1131,4.0,866132369,Jean de Florette,1986,Drama|Mystery,Archie,Smith,64
+5754,399,1188,4.0,866207923,Strictly Ballroom,1992,Comedy|Romance,Archie,Smith,64
+5755,399,1206,3.0,866206456,Clockwork Orange,1971,Crime|Drama|Sci-Fi|Thriller,Archie,Smith,64
+5756,399,1219,4.0,866132670,Psycho,1960,Crime|Horror,Archie,Smith,64
+5757,399,1225,3.0,866132057,Amadeus,1984,Drama,Archie,Smith,64
+5758,399,1230,2.0,866208230,Annie Hall,1977,Comedy|Romance,Archie,Smith,64
+5759,399,1234,5.0,866204024,Sting,1973,Comedy|Crime,Archie,Smith,64
+5760,399,1247,4.0,866132171,Graduate,1967,Comedy|Drama|Romance,Archie,Smith,64
+5761,399,1249,4.0,866132398,Femme Nikita,1990,Action|Crime|Romance|Thriller,Archie,Smith,64
+5762,399,1307,5.0,866132171,When Harry Met Sally...,1989,Comedy|Romance,Archie,Smith,64
+5763,399,1380,3.0,866133046,Grease,1978,Comedy|Musical|Romance,Archie,Smith,64
+5764,399,1197,4.0,866131802,Princess Bride,1987,Action|Adventure|Comedy|Fantasy|Romance,Archie,Smith,64
+5765,399,225,4.0,866205334,Disclosure,1994,Drama|Thriller,Archie,Smith,64
+5766,399,237,4.0,866132898,Forget Paris,1995,Comedy|Romance,Archie,Smith,64
+5767,399,252,2.0,866132615,I.Q.,1994,Comedy|Romance,Archie,Smith,64
+5768,399,282,5.0,866206697,Nell,1994,Drama,Archie,Smith,64
+5769,399,196,4.0,866206590,Species,1995,Horror|Sci-Fi,Archie,Smith,64
+5770,399,342,3.0,866207047,Muriel's Wedding,1994,Comedy,Archie,Smith,64
+5771,399,357,3.0,866204558,Four Weddings and a Funeral,1994,Comedy|Romance,Archie,Smith,64
+5772,399,64,4.0,866131101,Two if by Sea,1996,Comedy|Romance,Archie,Smith,64
+5773,399,81,3.0,866207437,Things to Do in Denver When You're Dead,1995,Crime|Drama|Romance,Archie,Smith,64
+5774,399,86,3.0,866204325,White Squall,1996,Action|Adventure|Drama,Archie,Smith,64
+5775,399,168,4.0,866133100,First Knight,1995,Action|Drama|Romance,Archie,Smith,64
+5776,399,236,5.0,866132615,French Kiss,1995,Action|Comedy|Romance,Archie,Smith,64
+5777,399,1081,5.0,866133046,Victor/Victoria,1982,Comedy|Musical|Romance,Archie,Smith,64
+5778,399,1201,5.0,866132171,Good,1966,Action|Adventure|Western,Archie,Smith,64
+5779,399,1266,4.0,866132369,Unforgiven,1992,Drama|Western,Archie,Smith,64
+5780,399,2019,5.0,866132274,Seven Samurai (Shichinin no samurai),1954,Action|Adventure|Drama,Archie,Smith,64
+5781,399,1237,4.0,866207923,Seventh Seal,1957,Drama,Archie,Smith,64
+5782,399,262,5.0,866204353,Little Princess,1995,Children|Drama,Archie,Smith,64
+5783,399,953,4.0,866131990,It's a Wonderful Life,1946,Children|Drama|Fantasy|Romance,Archie,Smith,64
+5784,399,1013,4.0,866132950,Parent Trap,1961,Children|Comedy|Romance,Archie,Smith,64
+5785,399,1035,5.0,866131990,Sound of Music,1965,Musical|Romance,Archie,Smith,64
+5786,399,277,4.0,866132615,Miracle on 34th Street,1994,Drama,Archie,Smith,64
+5787,399,1333,4.0,866205025,Birds,1963,Horror|Thriller,Archie,Smith,64
+5788,399,1097,4.0,866132137,E.T. the Extra-Terrestrial,1982,Children|Drama|Sci-Fi,Archie,Smith,64
+5789,399,1250,4.0,866131990,Bridge on the River Kwai,1957,Adventure|Drama|War,Archie,Smith,64
+5790,399,1302,4.0,866132228,Field of Dreams,1989,Children|Drama|Fantasy,Archie,Smith,64
+5791,399,1304,4.0,866207860,Butch Cassidy and the Sundance Kid,1969,Action|Western,Archie,Smith,64
+5792,399,1246,4.0,866131863,Dead Poets Society,1989,Drama,Archie,Smith,64
+5793,399,1387,4.0,866205130,Jaws,1975,Action|Horror,Archie,Smith,64
+5794,399,899,4.0,866132398,Singin' in the Rain,1952,Comedy|Musical|Romance,Archie,Smith,64
+5795,399,900,4.0,866132972,American in Paris,1951,Musical|Romance,Archie,Smith,64
+5796,399,914,5.0,866132274,My Fair Lady,1964,Comedy|Drama|Musical|Romance,Archie,Smith,64
+5797,399,1028,4.0,866132090,Mary Poppins,1964,Children|Comedy|Fantasy|Musical,Archie,Smith,64
+5798,399,1204,4.0,866132317,Lawrence of Arabia,1962,Adventure|Drama|War,Archie,Smith,64
+5799,399,909,4.0,866204964,Apartment,1960,Comedy|Drama|Romance,Archie,Smith,64
+5800,399,915,5.0,866132464,Sabrina,1954,Comedy|Romance,Archie,Smith,64
+5801,399,933,4.0,866204376,To Catch a Thief,1955,Crime|Mystery|Romance|Thriller,Archie,Smith,64
+5802,399,965,4.0,866132701,39 Steps,1935,Drama|Mystery|Thriller,Archie,Smith,64
+5803,399,1183,4.0,866131019,English Patient,1996,Drama|Romance|War,Archie,Smith,64
+5804,399,1262,4.0,866132025,Great Escape,1963,Action|Adventure|Drama|War,Archie,Smith,64
+5805,399,1293,4.0,866132297,Gandhi,1982,Drama,Archie,Smith,64
+5806,399,306,3.0,866131959,Three Colors: Red (Trois couleurs: Rouge),1994,Drama,Archie,Smith,64
+5807,399,898,4.0,866132581,Philadelphia Story,1940,Comedy|Drama|Romance,Archie,Smith,64
+5808,399,1104,3.0,866132090,Streetcar Named Desire,1951,Drama,Archie,Smith,64
+5809,399,802,4.0,866130933,Phenomenon,1996,Drama|Romance,Archie,Smith,64
+5810,399,920,3.0,866208084,Gone with the Wind,1939,Drama|Romance|War,Archie,Smith,64
+5811,399,942,4.0,866205130,Laura,1944,Crime|Film-Noir|Mystery,Archie,Smith,64
+5812,399,943,5.0,866132898,Ghost and Mrs. Muir,1947,Drama|Fantasy|Romance,Archie,Smith,64
+5813,399,954,4.0,866132137,Mr. Smith Goes to Washington,1939,Drama,Archie,Smith,64
+5814,399,1086,5.0,866204820,Dial M for Murder,1954,Crime|Mystery|Thriller,Archie,Smith,64
+5815,399,1099,4.0,866132433,Christmas Carol,1938,Children|Drama|Fantasy,Archie,Smith,64
+5816,399,1283,4.0,866207923,High Noon,1952,Drama|Western,Archie,Smith,64
+5817,399,1287,5.0,866132252,Ben-Hur,1959,Action|Adventure|Drama,Archie,Smith,64
+5818,399,1429,4.0,866131191,First Strike (Police Story 4: First Strike) (Ging chaat goo si 4: Ji gaan daan yam mo),1996,Action|Adventure|Comedy|Thriller,Archie,Smith,64
+5819,399,1479,4.0,866131282,Saint,1997,Action|Romance|Sci-Fi|Thriller,Archie,Smith,64
+5820,399,308,3.0,866132057,Three Colors: White (Trzy kolory: Bialy),1994,Comedy|Drama,Archie,Smith,64
+5821,399,448,4.0,866132581,Fearless,1993,Drama,Archie,Smith,64
+5822,399,1388,3.0,866206532,Jaws 2,1978,Horror|Thriller,Archie,Smith,64
+5823,399,671,4.0,866207462,Mystery Science Theater 3000: The Movie,1996,Comedy|Sci-Fi,Archie,Smith,64
+5824,399,951,4.0,866207923,His Girl Friday,1940,Comedy|Romance,Archie,Smith,64
+5825,399,911,5.0,866132516,Charade,1963,Comedy|Crime|Mystery|Romance|Thriller,Archie,Smith,64
+5826,399,918,4.0,866205656,Meet Me in St. Louis,1944,Musical,Archie,Smith,64
+5827,399,971,4.0,866207923,Cat on a Hot Tin Roof,1958,Drama,Archie,Smith,64
+5828,399,1132,4.0,866132516,Manon of the Spring (Manon des sources),1986,Drama,Archie,Smith,64
+5829,399,378,4.0,866132464,Speechless,1994,Comedy|Romance,Archie,Smith,64
+5830,399,1342,3.0,866206985,Candyman,1992,Horror|Thriller,Archie,Smith,64
+5831,399,1150,4.0,866205058,Return of Martin Guerre,1982,Drama,Archie,Smith,64
+5832,399,46,4.0,866207860,How to Make an American Quilt,1995,Drama|Romance,Archie,Smith,64
+5833,399,1277,5.0,866205130,Cyrano de Bergerac,1990,Comedy|Drama|Romance,Archie,Smith,64
+5834,399,936,4.0,866205850,Ninotchka,1939,Comedy|Romance,Archie,Smith,64
+5835,399,1014,4.0,866204870,Pollyanna,1960,Children|Comedy|Drama,Archie,Smith,64
+5836,399,1286,4.0,866204921,Somewhere in Time,1980,Drama|Romance,Archie,Smith,64
+5837,399,1480,4.0,866131425,Smilla's Sense of Snow,1997,Drama|Thriller,Archie,Smith,64
+5838,399,932,5.0,866132786,Affair to Remember,1957,Drama|Romance,Archie,Smith,64
+5839,399,952,5.0,866132844,Around the World in 80 Days,1956,Adventure|Comedy,Archie,Smith,64
+5840,399,718,4.0,866206022,Visitors,1993,Comedy|Fantasy|Sci-Fi,Archie,Smith,64
+5841,399,929,4.0,866205942,Foreign Correspondent,1940,Drama|Film-Noir|Mystery|Thriller,Archie,Smith,64
+5842,399,961,4.0,866206281,Little Lord Fauntleroy,1936,Drama,Archie,Smith,64
+5843,408,307,2.0,915923455,Three Colors: Blue (Trois couleurs: Bleu),1993,Drama,Baylor,Smith,49
+5844,408,1449,4.0,915920926,Waiting for Guffman,1996,Comedy,Baylor,Smith,49
+5845,408,1186,2.0,915920255,Sex,1989,Drama,Baylor,Smith,49
+5846,408,1244,5.0,915919335,Manhattan,1979,Comedy|Drama|Romance,Baylor,Smith,49
+5847,408,1962,3.0,915922758,Driving Miss Daisy,1989,Drama,Baylor,Smith,49
+5848,408,2243,4.0,915920180,Broadcast News,1987,Comedy|Drama|Romance,Baylor,Smith,49
+5849,408,1221,4.0,915919262,Godfather: Part II,1974,Crime|Drama,Baylor,Smith,49
+5850,408,2028,4.0,916090868,Saving Private Ryan,1998,Action|Drama|War,Baylor,Smith,49
+5851,408,1,3.0,915922608,Toy Story,1995,Adventure|Animation|Children|Comedy|Fantasy,Baylor,Smith,49
+5852,408,16,3.0,916091048,Casino,1995,Crime|Drama,Baylor,Smith,49
+5853,408,25,2.0,916092185,Leaving Las Vegas,1995,Drama|Romance,Baylor,Smith,49
+5854,408,32,3.0,915922563,Twelve Monkeys (a.k.a. 12 Monkeys),1995,Mystery|Sci-Fi|Thriller,Baylor,Smith,49
+5855,408,34,3.0,915922608,Babe,1995,Children|Drama,Baylor,Smith,49
+5856,408,36,5.0,915921162,Dead Man Walking,1995,Crime|Drama,Baylor,Smith,49
+5857,408,41,4.0,915921990,Richard III,1995,Drama|War,Baylor,Smith,49
+5858,408,50,3.0,915922608,Usual Suspects,1995,Crime|Mystery|Thriller,Baylor,Smith,49
+5859,408,110,3.0,915922670,Braveheart,1995,Action|Drama|War,Baylor,Smith,49
+5860,408,150,4.0,915920925,Apollo 13,1995,Adventure|Drama|IMAX,Baylor,Smith,49
+5861,408,151,3.0,916090848,Rob Roy,1995,Action|Drama|Romance|War,Baylor,Smith,49
+5862,408,260,3.0,915922706,Star Wars: Episode IV - A New Hope,1977,Action|Adventure|Sci-Fi,Baylor,Smith,49
+5863,408,288,4.0,916091464,Natural Born Killers,1994,Action|Crime|Thriller,Baylor,Smith,49
+5864,408,296,4.0,915920792,Pulp Fiction,1994,Comedy|Crime|Drama|Thriller,Baylor,Smith,49
+5865,408,318,4.0,915920881,Shawshank Redemption,1994,Crime|Drama,Baylor,Smith,49
+5866,408,329,2.0,916091875,Star Trek: Generations,1994,Adventure|Drama|Sci-Fi,Baylor,Smith,49
+5867,408,356,3.0,915923355,Forrest Gump,1994,Comedy|Drama|Romance|War,Baylor,Smith,49
+5868,408,364,2.0,915923499,Lion King,1994,Adventure|Animation|Children|Drama|Musical|IMAX,Baylor,Smith,49
+5869,408,382,2.0,916093800,Wolf,1994,Drama|Horror|Romance|Thriller,Baylor,Smith,49
+5870,408,435,1.0,916091965,Coneheads,1993,Comedy|Sci-Fi,Baylor,Smith,49
+5871,408,440,2.0,915923499,Dave,1993,Comedy|Romance,Baylor,Smith,49
+5872,408,457,3.0,915923396,Fugitive,1993,Thriller,Baylor,Smith,49
+5873,408,474,3.0,916091106,In the Line of Fire,1993,Action|Thriller,Baylor,Smith,49
+5874,408,527,5.0,915920657,Schindler's List,1993,Drama|War,Baylor,Smith,49
+5875,408,541,4.0,915919664,Blade Runner,1982,Action|Sci-Fi|Thriller,Baylor,Smith,49
+5876,408,589,3.0,916091071,Terminator 2: Judgment Day,1991,Action|Sci-Fi,Baylor,Smith,49
+5877,408,590,4.0,915921544,Dances with Wolves,1990,Adventure|Drama|Western,Baylor,Smith,49
+5878,408,592,3.0,915923312,Batman,1989,Action|Crime|Thriller,Baylor,Smith,49
+5879,408,593,4.0,915920746,Silence of the Lambs,1991,Crime|Horror|Thriller,Baylor,Smith,49
+5880,408,597,1.0,916093300,Pretty Woman,1990,Comedy|Romance,Baylor,Smith,49
+5881,408,608,4.0,915920746,Fargo,1996,Comedy|Crime|Drama|Thriller,Baylor,Smith,49
+5882,408,647,4.0,915921544,Courage Under Fire,1996,Action|Crime|Drama|War,Baylor,Smith,49
+5883,408,858,5.0,915919184,Godfather,1972,Crime|Drama,Baylor,Smith,49
+5884,408,919,4.0,915918715,Wizard of Oz,1939,Adventure|Children|Fantasy|Musical,Baylor,Smith,49
+5885,408,924,2.0,915923630,2001: A Space Odyssey,1968,Adventure|Drama|Sci-Fi,Baylor,Smith,49
+5886,408,1080,3.0,915923036,Monty Python's Life of Brian,1979,Comedy,Baylor,Smith,49
+5887,408,1088,1.0,915923957,Dirty Dancing,1987,Drama|Musical|Romance,Baylor,Smith,49
+5888,408,1089,3.0,915922992,Reservoir Dogs,1992,Crime|Mystery|Thriller,Baylor,Smith,49
+5889,408,1090,5.0,915919924,Platoon,1986,Drama|War,Baylor,Smith,49
+5890,408,1092,2.0,916091521,Basic Instinct,1992,Crime|Mystery|Thriller,Baylor,Smith,49
+5891,408,1094,4.0,915922131,Crying Game,1992,Drama|Romance|Thriller,Baylor,Smith,49
+5892,408,1101,2.0,915919924,Top Gun,1986,Action|Romance,Baylor,Smith,49
+5893,408,1136,3.0,915922940,Monty Python and the Holy Grail,1975,Adventure|Comedy|Fantasy,Baylor,Smith,49
+5894,408,1196,3.0,915922822,Star Wars: Episode V - The Empire Strikes Back,1980,Action|Adventure|Sci-Fi,Baylor,Smith,49
+5895,408,1198,3.0,915922758,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark),1981,Action|Adventure,Baylor,Smith,49
+5896,408,1200,3.0,915919631,Aliens,1986,Action|Adventure|Horror|Sci-Fi,Baylor,Smith,49
+5897,408,1203,4.0,915918347,12 Angry Men,1957,Drama,Baylor,Smith,49
+5898,408,1207,3.0,915922670,To Kill a Mockingbird,1962,Drama,Baylor,Smith,49
+5899,408,1208,4.0,915919335,Apocalypse Now,1979,Action|Drama|War,Baylor,Smith,49
+5900,408,1210,3.0,915922706,Star Wars: Episode VI - Return of the Jedi,1983,Action|Adventure|Sci-Fi,Baylor,Smith,49
+5901,408,1220,3.0,915919802,Blues Brothers,1980,Action|Comedy|Musical,Baylor,Smith,49
+5902,408,1222,3.0,915919978,Full Metal Jacket,1987,Drama|War,Baylor,Smith,49
+5903,408,1240,2.0,916094335,Terminator,1984,Action|Sci-Fi|Thriller,Baylor,Smith,49
+5904,408,1242,3.0,915923355,Glory,1989,Drama|War,Baylor,Smith,49
+5905,408,1291,3.0,915923133,Indiana Jones and the Last Crusade,1989,Action|Adventure,Baylor,Smith,49
+5906,408,1339,2.0,916092733,Dracula (Bram Stoker's Dracula),1992,Fantasy|Horror|Romance|Thriller,Baylor,Smith,49
+5907,408,1356,3.0,915923036,Star Trek: First Contact,1996,Action|Adventure|Sci-Fi|Thriller,Baylor,Smith,49
+5908,408,1372,3.0,916091854,Star Trek VI: The Undiscovered Country,1991,Action|Mystery|Sci-Fi,Baylor,Smith,49
+5909,408,1374,3.0,915923133,Star Trek II: The Wrath of Khan,1982,Action|Adventure|Sci-Fi|Thriller,Baylor,Smith,49
+5910,408,1375,2.0,915923630,Star Trek III: The Search for Spock,1984,Action|Adventure|Sci-Fi,Baylor,Smith,49
+5911,408,1376,3.0,915923222,Star Trek IV: The Voyage Home,1986,Adventure|Comedy|Sci-Fi,Baylor,Smith,49
+5912,408,1393,2.0,915923781,Jerry Maguire,1996,Drama|Romance,Baylor,Smith,49
+5913,408,1584,3.0,915922992,Contact,1997,Drama|Sci-Fi,Baylor,Smith,49
+5914,408,1617,4.0,915921713,L.A. Confidential,1997,Crime|Film-Noir|Mystery|Thriller,Baylor,Smith,49
+5915,408,1641,3.0,915922992,Full Monty,1997,Comedy|Drama,Baylor,Smith,49
+5916,408,1673,2.0,915923736,Boogie Nights,1997,Drama,Baylor,Smith,49
+5917,408,1682,4.0,915920746,Truman Show,1998,Comedy|Drama|Sci-Fi,Baylor,Smith,49
+5918,408,1704,5.0,915920698,Good Will Hunting,1997,Drama|Romance,Baylor,Smith,49
+5919,408,1721,3.0,915920698,Titanic,1997,Drama|Romance,Baylor,Smith,49
+5920,408,1784,2.0,915923691,As Good as It Gets,1997,Comedy|Drama|Romance,Baylor,Smith,49
+5921,408,1921,2.0,916091106,Pi,1998,Drama|Sci-Fi|Thriller,Baylor,Smith,49
+5922,408,1961,3.0,915922822,Rain Man,1988,Drama,Baylor,Smith,49
+5923,408,1968,2.0,915923781,Breakfast Club,1985,Comedy|Drama,Baylor,Smith,49
+5924,408,2000,2.0,915923862,Lethal Weapon,1987,Action|Comedy|Crime|Drama,Baylor,Smith,49
+5925,408,2003,1.0,915923957,Gremlins,1984,Comedy|Horror,Baylor,Smith,49
+5926,408,2105,1.0,915923987,Tron,1982,Action|Adventure|Sci-Fi,Baylor,Smith,49
+5927,408,2115,2.0,915923861,Indiana Jones and the Temple of Doom,1984,Action|Adventure|Fantasy,Baylor,Smith,49
+5928,408,2140,4.0,915919598,Dark Crystal,1982,Adventure|Fantasy,Baylor,Smith,49
+5929,408,2150,3.0,915922706,Gods Must Be Crazy,1980,Adventure|Comedy,Baylor,Smith,49
+5930,408,2174,2.0,915923826,Beetlejuice,1988,Comedy|Fantasy,Baylor,Smith,49
+5931,408,2194,3.0,915919766,Untouchables,1987,Action|Crime|Drama,Baylor,Smith,49
+5932,408,2268,3.0,915922758,Few Good Men,1992,Crime|Drama|Thriller,Baylor,Smith,49
+5933,408,2391,3.0,915917746,Simple Plan,1998,Crime|Drama|Thriller,Baylor,Smith,49
+5934,408,2393,3.0,915917941,Star Trek: Insurrection,1998,Action|Drama|Romance|Sci-Fi,Baylor,Smith,49
+5935,408,2406,2.0,915923861,Romancing the Stone,1984,Action|Adventure|Comedy|Romance,Baylor,Smith,49
+5936,408,2470,2.0,915923781,Crocodile Dundee,1986,Adventure|Comedy,Baylor,Smith,49
+5937,408,1147,4.0,915921595,When We Were Kings,1996,Documentary,Baylor,Smith,49
+5938,408,1193,4.0,915919184,One Flew Over the Cuckoo's Nest,1975,Drama,Baylor,Smith,49
+5939,408,2329,5.0,915917816,American History X,1998,Crime|Drama,Baylor,Smith,49
+5940,408,111,2.0,915923455,Taxi Driver,1976,Crime|Drama|Thriller,Baylor,Smith,49
+5941,408,224,1.0,916092863,Don Juan DeMarco,1995,Comedy|Drama|Romance,Baylor,Smith,49
+5942,408,273,2.0,916093800,Mary Shelley's Frankenstein (Frankenstein),1994,Drama|Horror|Sci-Fi,Baylor,Smith,49
+5943,408,515,4.0,915921633,Remains of the Day,1993,Drama|Romance,Baylor,Smith,49
+5944,408,1041,2.0,915923691,Secrets & Lies,1996,Drama,Baylor,Smith,49
+5945,408,14,4.0,915922362,Nixon,1995,Drama,Baylor,Smith,49
+5946,408,52,3.0,915922608,Mighty Aphrodite,1995,Comedy|Drama|Romance,Baylor,Smith,49
+5947,408,1057,3.0,916092733,Everyone Says I Love You,1996,Comedy|Musical|Romance,Baylor,Smith,49
+5948,408,299,2.0,915923455,Priest,1994,Drama,Baylor,Smith,49
+5949,408,348,3.0,915923396,Bullets Over Broadway,1994,Comedy,Baylor,Smith,49
+5950,408,534,2.0,915923500,Shadowlands,1993,Drama|Romance,Baylor,Smith,49
+5951,408,551,4.0,915921361,Nightmare Before Christmas,1993,Animation|Children|Fantasy|Musical,Baylor,Smith,49
+5952,408,745,3.0,915923271,Wallace & Gromit: A Close Shave,1995,Animation|Children|Comedy,Baylor,Smith,49
+5953,408,750,5.0,915918915,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,Comedy|War,Baylor,Smith,49
+5954,408,903,3.0,915918308,Vertigo,1958,Drama|Mystery|Romance|Thriller,Baylor,Smith,49
+5955,408,904,3.0,915918262,Rear Window,1954,Mystery|Thriller,Baylor,Smith,49
+5956,408,908,3.0,915918308,North by Northwest,1959,Action|Adventure|Mystery|Romance|Thriller,Baylor,Smith,49
+5957,408,912,5.0,915918519,Casablanca,1942,Drama|Romance,Baylor,Smith,49
+5958,408,913,4.0,915918519,Maltese Falcon,1941,Film-Noir|Mystery,Baylor,Smith,49
+5959,408,923,5.0,915918519,Citizen Kane,1941,Drama|Mystery,Baylor,Smith,49
+5960,408,994,2.0,915923630,Big Night,1996,Comedy|Drama,Baylor,Smith,49
+5961,408,1077,4.0,915919351,Sleeper,1973,Comedy|Sci-Fi,Baylor,Smith,49
+5962,408,1093,2.0,916093613,Doors,1991,Drama,Baylor,Smith,49
+5963,408,1131,5.0,915919631,Jean de Florette,1986,Drama|Mystery,Baylor,Smith,49
+5964,408,1148,3.0,915922857,Wallace & Gromit: The Wrong Trousers,1993,Animation|Children|Comedy|Crime,Baylor,Smith,49
+5965,408,1199,3.0,915922758,Brazil,1985,Fantasy|Sci-Fi,Baylor,Smith,49
+5966,408,1206,4.0,915919290,Clockwork Orange,1971,Crime|Drama|Sci-Fi|Thriller,Baylor,Smith,49
+5967,408,1219,5.0,915918951,Psycho,1960,Crime|Horror,Baylor,Smith,49
+5968,408,1223,3.0,915923271,Grand Day Out with Wallace and Gromit,1989,Adventure|Animation|Children|Comedy|Sci-Fi,Baylor,Smith,49
+5969,408,1225,4.0,915919598,Amadeus,1984,Drama,Baylor,Smith,49
+5970,408,1230,5.0,915919262,Annie Hall,1977,Comedy|Romance,Baylor,Smith,49
+5971,408,1234,3.0,915922608,Sting,1973,Comedy|Crime,Baylor,Smith,49
+5972,408,1247,2.0,915923781,Graduate,1967,Comedy|Drama|Romance,Baylor,Smith,49
+5973,408,1249,4.0,915921713,Femme Nikita,1990,Action|Crime|Romance|Thriller,Baylor,Smith,49
+5974,408,1284,3.0,915923133,Big Sleep,1946,Crime|Film-Noir|Mystery,Baylor,Smith,49
+5975,408,1288,4.0,915919697,This Is Spinal Tap,1984,Comedy,Baylor,Smith,49
+5976,408,1307,2.0,915923862,When Harry Met Sally...,1989,Comedy|Romance,Baylor,Smith,49
+5977,408,1639,4.0,915920657,Chasing Amy,1997,Comedy|Drama|Romance,Baylor,Smith,49
+5978,408,1953,3.0,915923036,French Connection,1971,Action|Crime|Thriller,Baylor,Smith,49
+5979,408,1957,3.0,915922940,Chariots of Fire,1981,Drama,Baylor,Smith,49
+5980,408,2116,3.0,915922670,Lord of the Rings,1978,Adventure|Animation|Children|Fantasy,Baylor,Smith,49
+5981,408,2300,4.0,915919060,Producers,1968,Comedy,Baylor,Smith,49
+5982,408,2324,4.0,915918117,Life Is Beautiful (La Vita è bella),1997,Comedy|Drama|Romance|War,Baylor,Smith,49
+5983,408,2360,2.0,915923905,Celebration,1998,Drama,Baylor,Smith,49
+5984,408,2396,4.0,915918117,Shakespeare in Love,1998,Comedy|Drama|Romance,Baylor,Smith,49
+5985,408,720,2.0,915923550,Wallace & Gromit: The Best of Aardman Animation,1996,Adventure|Animation|Comedy,Baylor,Smith,49
+5986,408,838,3.0,915923271,Emma,1996,Comedy|Drama|Romance,Baylor,Smith,49
+5987,408,1281,5.0,915918578,Great Dictator,1940,Comedy|Drama|War,Baylor,Smith,49
+5988,408,1197,2.0,915923736,Princess Bride,1987,Action|Adventure|Comedy|Fantasy|Romance,Baylor,Smith,49
+5989,408,1267,5.0,915918993,Manchurian Candidate,1962,Crime|Thriller|War,Baylor,Smith,49
+5990,408,17,3.0,915922563,Sense and Sensibility,1995,Drama|Romance,Baylor,Smith,49
+5991,408,232,2.0,915923455,Eat Drink Man Woman (Yin shi nan nu),1994,Comedy|Drama|Romance,Baylor,Smith,49
+5992,408,265,4.0,915921633,Like Water for Chocolate (Como agua para chocolate),1992,Drama|Fantasy|Romance,Baylor,Smith,49
+5993,408,272,4.0,915921038,Madness of King George,1994,Comedy|Drama,Baylor,Smith,49
+5994,408,417,1.0,916092733,Barcelona,1994,Comedy|Romance,Baylor,Smith,49
+5995,408,468,4.0,916092863,Englishman Who Went Up a Hill But Came Down a Mountain,1995,Comedy|Romance,Baylor,Smith,49
+5996,408,342,1.0,915923957,Muriel's Wedding,1994,Comedy,Baylor,Smith,49
+5997,408,357,1.0,916092285,Four Weddings and a Funeral,1994,Comedy|Romance,Baylor,Smith,49
+5998,408,497,4.0,915922181,Much Ado About Nothing,1993,Comedy|Romance,Baylor,Smith,49
+5999,408,508,2.0,915923499,Philadelphia,1993,Drama,Baylor,Smith,49

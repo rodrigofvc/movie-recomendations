@@ -68,7 +68,10 @@ public class Divisor {
         File archivo = new File (direccion);
         try( FileReader fr = new FileReader(archivo);
              BufferedReader br = new BufferedReader(fr);) {
-             int linea_actual = 0;
+             int linea_actual = 1;
+             // Agrega las columnas
+             String columnas = br.readLine();
+             registros.add(columnas);
             // Llega hasta la linea donde tiene que iniciar la lectura    
             while (linea_actual != i) {
                 br.readLine();
