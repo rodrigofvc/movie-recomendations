@@ -3,7 +3,7 @@ package com.proav.movie.recomendations;
 import com.proav.movie.recomendations.ManagerWorker.Manager;
 import com.proav.movie.recomendations.utilidades.Divisor;
 import com.proav.movie.recomendations.utilidades.Expresion;
-import com.proav.movie.recomendations.utilidades.OperadorEnum;
+import com.proav.movie.recomendations.utilidades.ComparadorEnum;
 import java.util.ArrayList;
 
 /**
@@ -37,7 +37,7 @@ public class Main {
      */
     public static ArrayList<ArrayList<Expresion>> getExpresionesFiltrado() {
         ArrayList<ArrayList<Expresion>> expresiones = new ArrayList<ArrayList<Expresion>>();
-        OperadorEnum op = OperadorEnum.IGUALDAD; 
+        ComparadorEnum op = ComparadorEnum.IGUALDAD; 
         Expresion expresion = new Expresion(op, "title", "hello world");
         ArrayList<Expresion> filtrado = new ArrayList<Expresion>();
         filtrado.add(expresion);

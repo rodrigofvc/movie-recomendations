@@ -55,6 +55,8 @@ public class Parser {
             return ">=";
         }else if(expr.contains("<=")){
             return "<=";
+        }else if(expr.contains("<>")){
+            return "<>";
         }else if(expr.contains(">")){
             return ">";
         }else if(expr.contains("<")){
@@ -74,17 +76,19 @@ public class Parser {
     private static Expresion buildExpr(String expr){
         String op = extraeOperador(expr);
         String[] separado = expr.split(op);
-        OperadorEnum oe = OperadorEnum.IGUALDAD;
+        ComparadorEnum oe = ComparadorEnum.IGUALDAD;
         switch(op){
-            case "<=" : oe = OperadorEnum.MENOR_IGUAL;
+            case "<=" : oe = ComparadorEnum.MENOR_IGUAL;
             break;
-            case ">=" : oe = OperadorEnum.MAYOR_IGUAL;
+            case ">=" : oe = ComparadorEnum.MAYOR_IGUAL;
             break;
-            case "<" : oe = OperadorEnum.MENOR;
+            case "<>" : oe = ComparadorEnum.DIFERENTE;
             break;
-            case ">" : oe = OperadorEnum.MAYOR;
+            case "<" : oe = ComparadorEnum.MENOR;
             break;
-            case "=" : oe = OperadorEnum.IGUALDAD;
+            case ">" : oe = ComparadorEnum.MAYOR;
+            break;
+            case "=" : oe = ComparadorEnum.IGUALDAD;
             break;
         }
         Expresion ne = new Expresion(oe, separado[0].strip(), separado[1].strip());
