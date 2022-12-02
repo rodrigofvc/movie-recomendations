@@ -18,8 +18,10 @@ public class Main {
         Divisor.divideArchivos(numHilos, direccion);
         // Interprete envia las clausulas de filtrado....
         ArrayList<ArrayList<Expresion>> expresiones = getExpresionesFiltrado();
+        String select = ""; //TODO: cambiar por el input del programa.
+        String[] select2 = select.split(",");
         // Realiza el filtrado sobre los workers
-        Manager.filtraInformacion(numHilos, expresiones);
+        Manager.filtraInformacion(numHilos, expresiones, select2);
         
     }
     

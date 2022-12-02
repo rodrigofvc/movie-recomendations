@@ -9,6 +9,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.HashMap;
 
 /**
@@ -23,15 +24,18 @@ public class Worker extends Thread {
     public static BufferedWriter bufferResultado;
     private String archivo;
     private ArrayList<ArrayList<Expresion>> expresiones;
+    private String[] colSelect;
      
     /**
      * Recibe el archivo sobre el cual va a trabajar.
      * @param archivo el archivo a realizar la operación de filtrado.
      * @param expresiones las listas de expresiones para filtrar el archivo.
+     * @param seleccion arreglo con las columnas seleccionadas.
      */
-    public Worker(String archivo, ArrayList<ArrayList<Expresion>> expresiones) {
+    public Worker(String archivo, ArrayList<ArrayList<Expresion>> expresiones, String[] seleccion) {
         this.archivo = archivo;
         this.expresiones = expresiones;
+        colSelect = seleccion;
     }
 
     /**
@@ -70,6 +74,25 @@ public class Worker extends Thread {
     }
     
     /**
+     * Hace una proyección de un registro, dejando solamente las columnas seleccionadas.
+     * @param registro
+     * @param indSelec lista de índices de las columnas seleccionadas.
+     * @return registro sin algunas columnas.
+     */
+    private String seleccionaColumnas(String registro, List<Integer> indSelec){
+        String salida = "";
+        String[] regSplit = registro.split(",");
+        int i;
+        for(i=0; i<indSelec.size()-1; i++){
+            int indiceCol = indSelec.get(i);
+            salida += regSplit[indiceCol]+",";
+        }
+        i++;
+        salida += regSplit[indSelec.get(i)];
+        return salida;
+    }
+    
+    /**
      * Hace el filtrado de información del subarchivo que le tocó.
      */
     private void manejaArchivo() {
@@ -79,12 +102,24 @@ public class Worker extends Thread {
             BufferedReader br = new BufferedReader(fr);) {
             String registro = br.readLine();
             // En la primera fila estan las columnas
-            String[] columnaSubarchivo = registro.split(",");                                
+            String[] columnaSubarchivo = registro.split(",");
+            ArrayList<Integer> indicesColumnas = new ArrayList<>();
+            for(String cs : colSelect){
+                int indice = -1;
+                for(int i=0; i<columnaSubarchivo.length; i++){
+                    if(cs.equals(columnaSubarchivo[i])){
+                        indice = i;
+                        break;
+                    }
+                }
+                indicesColumnas.add(indice);
+            }
             while ((registro = br.readLine()) != null) {
                 for (ArrayList<Expresion> listaExpresiones : expresiones) {
                     // Filtra las columnas 
                     if (satisfaceCondiciones(columnaSubarchivo, registro, listaExpresiones)) {
-                        escribeArchivo(registro + "\n");
+                        String proyectado = seleccionaColumnas(registro, indicesColumnas);
+                        escribeArchivo(proyectado + "\n");
                     }                
                 }                
             }
