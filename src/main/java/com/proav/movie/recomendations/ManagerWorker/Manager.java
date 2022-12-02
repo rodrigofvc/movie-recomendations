@@ -19,6 +19,8 @@ public class Manager {
      * @param expresiones filtros para los registros.
      */
     public static void filtraInformacion(int numHilos, ArrayList<ArrayList<Expresion>> expresiones) {
+        // El buffer donde los hilos escriben
+        Worker.inicializaBufferConcurrente();
         
         ExecutorService poolWorkers = Executors.newFixedThreadPool(numHilos);
         
@@ -33,19 +35,8 @@ public class Manager {
         poolWorkers.shutdown();
         while (! poolWorkers.isTerminated()) {            
         }
+        
         // Cierra el buffer cuando todos los Threads terminaron su tarea
-        cierraBufferConcurrente();        
-    }
-    
-    /**
-     * Una vez que los hilos hayan terminado su tarea, cierra el buffer.
-     */
-    private static void cierraBufferConcurrente() {
-        try {
-            Worker.bufferResultado.close();   
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    
+        Worker.cierraBufferConcurrente();        
+    }    
 }

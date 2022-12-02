@@ -6,18 +6,18 @@ package com.proav.movie.recomendations.utilidades;
  */
 public class Expresion {
     
-    private OperadorEnum operador;
+    private ComparadorEnum comparador;
     private String variable;
     private String valor;
     
-    public Expresion(OperadorEnum operador, String variable, String valor) {
-        this.operador = operador;
+    public Expresion(ComparadorEnum comparador, String variable, String valor) {
+        this.comparador = comparador;
         this.variable = variable;
         this.valor = valor;
     }
 
-    public OperadorEnum getOperador() {
-        return operador;
+    public ComparadorEnum getComparador() {
+        return comparador;
     }
 
     public String getVariable() {
@@ -31,7 +31,7 @@ public class Expresion {
     @Override
     public String toString(){
         String op;
-        switch(operador){
+        switch(comparador){
             case IGUALDAD: op = "=";
             break;
             case MENOR_IGUAL: op = "<=";
@@ -41,6 +41,8 @@ public class Expresion {
             case MAYOR: op = ">";
             break;
             case MENOR: op = "<";
+            break;
+            case DIFERENTE: op = "<>";
             break;
             default: op = "";
         }

@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
@@ -86,9 +87,9 @@ public class Divisor {
             }            
         
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.printf("No se puede leer el archivo %s%n", direccion);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e);
         }        
     }
     
@@ -111,8 +112,10 @@ public class Divisor {
             for(String registro : registros) {
                pw.write(registro + "\n");
             }            
+        } catch(IOException e) {
+            System.out.printf("No se puede escribir en %s%n", WRITE_DIR + nombreArchivo);
         } catch(Exception e) {
-            e.printStackTrace();
+            System.out.println(e);
         }        
     }
 }
