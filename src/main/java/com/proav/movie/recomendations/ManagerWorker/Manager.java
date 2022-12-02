@@ -11,23 +11,19 @@ import java.util.concurrent.Executors;
  */
 public class Manager {
     
-    /**
-     * Registros que recibe de los workers.
-     */
-    public static ArrayList<String> registros = new ArrayList<String>();
+    private static final String DIR_SUBARCHIVOS = "data/output/subarchivo-";
     
     /**
      * Crea un pool de hilos y obten la información de cada hilo.
      * @param numHilos hilos a crear en el pool.
      * @param expresiones filtros para los registros.
-     * @param columnas las columnas de los registros esperados.
      */
     public static void filtraInformacion(int numHilos, ArrayList<ArrayList<Expresion>> expresiones) {
         
         ExecutorService poolWorkers = Executors.newFixedThreadPool(numHilos);
         
         for (int i = 0; i < numHilos; i++) {
-            String subarchivo = "data/output/subarchivo-" + Integer.toString(i+1) + ".csv";
+            String subarchivo = DIR_SUBARCHIVOS + Integer.toString(i+1) + ".csv";
             poolWorkers.execute(new Worker(subarchivo, expresiones));
         }
         
@@ -37,16 +33,19 @@ public class Manager {
         poolWorkers.shutdown();
         while (! poolWorkers.isTerminated()) {            
         }
-        
-        
+        // Cierra el buffer cuando todos los Threads terminaron su tarea
+        cierraBufferConcurrente();        
     }
     
     /**
-     * Guarda los registros que los workers envian.
-     * @param registro el registro que el worker envia.
+     * Una vez que los hilos hayan terminado su tarea, cierra el buffer.
      */
-    public synchronized static void agregaRegistro(String registro) {
-        registros.add(registro);
+    private static void cierraBufferConcurrente() {
+        try {
+            Worker.bufferResultado.close();   
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
     
 }
