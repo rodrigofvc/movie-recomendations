@@ -114,7 +114,7 @@ public class Worker extends Thread {
             while ((registro = br.readLine()) != null) {
                 for (ArrayList<Expresion> listaExpresiones : expresiones) {
                     // Filtra las columnas 
-                    if (satisfaceCondiciones(columnaSubarchivo, registro, listaExpresiones, tablaNombres)) {
+                    if (satisfaceCondiciones(registro, listaExpresiones, tablaNombres)) {
                         String proyectado = seleccionaColumnas(registro, indicesColumnas);
                         escribeArchivo(proyectado + "\n");
                     }                
@@ -165,11 +165,11 @@ public class Worker extends Thread {
     
     /**
      * Revisa si el registro dado satisface las condiciones.
-     * @param columnaSubarchivo 
      * @param registro 
-     * @param listaExpresiones 
+     * @param listaExpresiones
+     * @param tablaNombres
      */
-    private boolean satisfaceCondiciones(String[] columnaSubarchivo, String registro, ArrayList<Expresion> listaExpresiones, HashMap<String, Integer> tablaNombres) {
+    private boolean satisfaceCondiciones(String registro, ArrayList<Expresion> listaExpresiones, HashMap<String, Integer> tablaNombres) {
         String[] registroSeparado = registro.split(",");
         // Como es una lista de conjunciones, se devuelve falso al primero que
         // no cumpla con la condición.
