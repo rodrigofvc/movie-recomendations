@@ -104,20 +104,17 @@ public class Worker extends Thread {
             // En la primera fila estan las columnas
             String[] columnaSubarchivo = registro.split(",");
             ArrayList<Integer> indicesColumnas = new ArrayList<>();
+            HashMap<String, Integer> tablaNombres = new HashMap<>();
+            for(int i=0; i<columnaSubarchivo.length; i++){
+                tablaNombres.put(columnaSubarchivo[i], i);
+            }
             for(String cs : colSelect){
-                int indice = -1;
-                for(int i=0; i<columnaSubarchivo.length; i++){
-                    if(cs.equals(columnaSubarchivo[i])){
-                        indice = i;
-                        break;
-                    }
-                }
-                indicesColumnas.add(indice);
+                indicesColumnas.add(tablaNombres.get(cs));
             }
             while ((registro = br.readLine()) != null) {
                 for (ArrayList<Expresion> listaExpresiones : expresiones) {
                     // Filtra las columnas 
-                    if (satisfaceCondiciones(columnaSubarchivo, registro, listaExpresiones)) {
+                    if (satisfaceCondiciones(columnaSubarchivo, registro, listaExpresiones, tablaNombres)) {
                         String proyectado = seleccionaColumnas(registro, indicesColumnas);
                         escribeArchivo(proyectado + "\n");
                     }                
@@ -172,11 +169,7 @@ public class Worker extends Thread {
      * @param registro 
      * @param listaExpresiones 
      */
-    private boolean satisfaceCondiciones(String[] columnaSubarchivo, String registro, ArrayList<Expresion> listaExpresiones) {
-        HashMap<String, Integer> tablaNombres = new HashMap<>();
-        for(int i=0; i<columnaSubarchivo.length; i++){
-            tablaNombres.put(columnaSubarchivo[i], i);
-        }
+    private boolean satisfaceCondiciones(String[] columnaSubarchivo, String registro, ArrayList<Expresion> listaExpresiones, HashMap<String, Integer> tablaNombres) {
         String[] registroSeparado = registro.split(",");
         // Como es una lista de conjunciones, se devuelve falso al primero que
         // no cumpla con la condición.
