@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.proav.movie.recomendations.utilidades;
+package utilidades;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -101,6 +101,9 @@ public class Parser {
      * @return expresiones separadas.
      */
     public static ArrayList<ArrayList<Expresion>> analiza(String expr){
+        if(expr.equals("*")){
+            return new ArrayList<>();
+        }
         ArrayList<ArrayList<String>> fndExp = fnd(expr);
         ArrayList<ArrayList<Expresion>> expresiones = new ArrayList<>();
         for(ArrayList<String> lista : fndExp){

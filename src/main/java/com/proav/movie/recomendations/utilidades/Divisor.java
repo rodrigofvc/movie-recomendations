@@ -1,4 +1,4 @@
-package com.proav.movie.recomendations.utilidades;
+package utilidades;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

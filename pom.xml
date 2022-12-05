@@ -5,10 +5,30 @@
     <artifactId>movie-recomendations</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx</artifactId>
+            <version>19</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>19</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>19</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>13</maven.compiler.source>
         <maven.compiler.target>13</maven.compiler.target>
-        <exec.mainClass>com.proav.movie.recomendations.Main</exec.mainClass>
+        <exec.mainClass>com.proav.movie.recomendations.movies.Main</exec.mainClass>
     </properties>
 </project>

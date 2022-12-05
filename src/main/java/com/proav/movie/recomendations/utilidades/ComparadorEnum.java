@@ -1,8 +1,8 @@
-package com.proav.movie.recomendations.utilidades;
+package utilidades;
 
 /**
  *
- * Enumerador para el tipo de operaciones
+ * Enumerador para el tipo de comparaciones
  */
 public enum ComparadorEnum {
     IGUALDAD, 
