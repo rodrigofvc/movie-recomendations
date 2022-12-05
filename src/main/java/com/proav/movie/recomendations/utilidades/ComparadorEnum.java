@@ -1,4 +1,4 @@
-package utilidades;
+package com.proav.movie.recomendations.utilidades;
 
 /**
  *

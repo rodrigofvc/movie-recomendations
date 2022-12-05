@@ -1,6 +1,6 @@
 package com.proav.movie.recomendations.ManagerWorker;
 
-import utilidades.Expresion;
+import com.proav.movie.recomendations.utilidades.Expresion;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -53,7 +53,6 @@ public class Worker extends Thread {
             System.out.printf("No se puede escribir en el archivo %s%n", DIR_RESULTADO);
         } catch (Exception e) {
             System.out.println(e);
-            e.printStackTrace();
         }
     }
 
@@ -68,7 +67,6 @@ public class Worker extends Thread {
             System.out.println("No se pudo cerrar el buffer de escritura compartida");
         } catch (Exception e) {
             System.out.println(e);
-            e.printStackTrace();
         }
     }
 
@@ -142,7 +140,6 @@ public class Worker extends Thread {
             System.out.printf("%s no pudo escribir en el archivo %s porque no existe", this.getName(), this.archivo);
         } catch (Exception e) {
             System.out.println(e);
-            e.printStackTrace();
         }
     }
 
@@ -159,7 +156,6 @@ public class Worker extends Thread {
             System.out.printf("%s no pudo escribir en el archivo %s%n", this.getName(), DIR_RESULTADO);
         } catch (Exception e) {
             System.out.println(e);
-            e.printStackTrace();
         }
     }
 

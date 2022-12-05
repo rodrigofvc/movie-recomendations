@@ -1,6 +1,6 @@
 package com.proav.movie.recomendations.ManagerWorker;
 
-import utilidades.Expresion;
+import com.proav.movie.recomendations.utilidades.Expresion;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -10,7 +10,6 @@ import java.util.concurrent.Executors;
  * Clase para modelar el Manager.
  */
 public class Manager {
-
     private static final String DIR_SUBARCHIVOS = "data/output/subarchivo-";
 
     /**

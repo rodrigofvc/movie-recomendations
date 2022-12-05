@@ -2,7 +2,11 @@
 package com.proav.movie.recomendations.movies;
 
 import com.proav.movie.recomendations.ManagerWorker.Manager;
-import utilidades.*;
+import com.proav.movie.recomendations.utilidades.Divisor;
+import com.proav.movie.recomendations.utilidades.Expresion;
+import com.proav.movie.recomendations.utilidades.Parser;
+
+
 import estadisticas.GraficaBarras;
 
 import java.util.ArrayList;
@@ -118,10 +122,10 @@ public class Main extends Application{
         // Interprete envia las clausulas de filtrado....
         ArrayList<ArrayList<Expresion>> expresiones = Parser.analiza(expr);
         if (!select.contains("title")) {
-          select += ",title";
+          select += ", title";
         }
         if (!select.contains("rating")) {
-          select += ",rating";
+          select += ", rating";
         }
         // Realiza el filtrado sobre los workers
         Manager.filtraInformacion(numHilos, expresiones, select);
