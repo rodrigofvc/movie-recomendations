@@ -9,7 +9,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.HashMap;
 
 /**
@@ -22,9 +21,9 @@ public class Worker extends Thread {
     public final static String DIR_RESULTADO = "data/resultados.csv";
     // El buffer general para escribir
     public static BufferedWriter bufferResultado;
-    private String archivo;
-    private ArrayList<ArrayList<Expresion>> expresiones;
-    private String colSelect;
+    private final String archivo;
+    private final ArrayList<ArrayList<Expresion>> expresiones;
+    private final String colSelect;
 
     /**
      * Recibe el archivo sobre el cual va a trabajar.

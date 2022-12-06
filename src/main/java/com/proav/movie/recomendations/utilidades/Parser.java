@@ -69,8 +69,9 @@ public class Parser {
      * Construye una expresión (de la clase Expresion) dado un string con exactamente un comparador.
      * @param expr expresión con un comparador.
      * @return Expresion construida a partir de un String.
+     * @throws UnsupportedOperationException 
      */
-    private static Expresion buildExpr(String expr){
+    private static Expresion buildExpr(String expr) throws UnsupportedOperationException{
         String op = extraeOperador(expr);
         String[] separado = expr.split(op);
         ComparadorEnum oe = ComparadorEnum.IGUALDAD;
@@ -88,9 +89,34 @@ public class Parser {
             case "=" : oe = ComparadorEnum.IGUALDAD;
             break;
         }
+        if (!revisaCorrectas(separado[0].strip())) {
+            throw new UnsupportedOperationException("Esa variable no es nombre valido de columna.");
+        }        
+        revisaSemantica(oe, separado[0].strip(), separado[1].strip());
         Expresion ne = new Expresion(oe, separado[0].strip(), separado[1].strip());
         return ne;
     }
+    
+    /**
+     * Revisa si las operaciones descritas por el operando, la columna y el valor son validas. 
+     * @param op operador.
+     * @param columna la columna a revisar.
+     * @param valor el valor dado por el usuario.
+     */
+    public static void revisaSemantica(ComparadorEnum op, String columna, String valor) throws UnsupportedOperationException {
+        if (op != ComparadorEnum.IGUALDAD) {
+            if (!valor.matches("[0-9]+")) {
+                throw new UnsupportedOperationException("Tienes que tener un valor numérico.");
+            }
+        } else {
+            if (columna.equals("movieId") || columna.equals("year")) {
+                if (!valor.matches("[0-9]+")) {
+                    throw new UnsupportedOperationException("Tienes que tener un valor numérico.");
+                }
+            }
+        }
+    }
+    
     
     /**
      * Convierte una expresión en forma normal disyuntiva a una lista de listas de expresiones.
@@ -112,6 +138,28 @@ public class Parser {
         }
         return expresiones;
     }
+    
+    /**
+     * Revisa si las columnas dadas por el usuario son correctas.
+     * @param select la entrada del usuario con las columnas.
+     * @return true si la cadena tiene columnas validas, false en otro caso.
+     */
+    public static boolean revisaCorrectas(String select) {
+        String[] columnas = select.split(",");
+        for (String c : columnas) {
+            String columna = c.strip();
+            if (!columna.equals("movieId") &&
+                !columna.equals("title")   &&
+                !columna.equals("year")    &&  
+                !columna.equals("genres")  &&
+                !columna.equals("imdbId")  && 
+                !columna.equals("tmdbId")) {
+                return false;
+            }
+        }
+        return true;
+    }
+    
     
     public static void main(String[] args){
         String ejemplo = "(hola = 1 AND hola = 2) OR (mundo > 2 AND mundo < 8) OR (perro >= 0) OR (gato <= 3 AND gato = 6 AND gato = 9)";

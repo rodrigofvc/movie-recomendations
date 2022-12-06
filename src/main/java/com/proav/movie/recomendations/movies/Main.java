@@ -43,8 +43,8 @@ public class Main extends Application{
 
     @Override
     public void start(Stage primaryStage) {
-        anchoVentana = 500;
-        altoVentana = 500;
+        anchoVentana = 800;
+        altoVentana = 700;
         escenario = primaryStage;
 
         caja = new VBox();
@@ -55,18 +55,20 @@ public class Main extends Application{
         inputSelect.setPrefWidth(anchoVentana-100);
 
         labelWhere = new Label(" Escriba las condiciones de filtrado en forma normal disyuntiva. ");
-
+        
         inputWhere = new TextField();
         inputWhere.setPrefWidth(anchoVentana-100);
-
+        
         GraficaBarras grafica = new GraficaBarras();
 
         ejecuta = new Button(" Ejecutar consulta ");
         ejecuta.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                ejecutaConsulta();
-                grafica.reset();
+                boolean valida = ejecutaConsulta();
+                if (valida) {
+                    grafica.reset();    
+                }
             }
         });
 
@@ -97,7 +99,7 @@ public class Main extends Application{
         cajaGraph.setMaxWidth(1500);
         cajaGraph.setAlignment(Pos.TOP_CENTER);
         caja.getChildren().add(cajaGraph);
-
+        
         Scene scene = new Scene(caja, anchoVentana, altoVentana);
         escenario.setTitle("Consulta");
         escenario.setScene(scene);
@@ -112,21 +114,48 @@ public class Main extends Application{
         return CPUs*4;
     }
 
-    public void ejecutaConsulta(){
-        int numHilos = getNumHilos();
-        // Probando con un archivo de pocos registros
-        String direccion = "data/out-users-8000_v2.csv";
-        Divisor.divideArchivos(numHilos, direccion);
+    /**
+     * Revisa las entradas del usuario.
+     * Realiza la división de archivos.
+     * Llama al manager para realizar el filtrado.
+     * @return true si se pudo realizar la consulta, false en otro caso.
+     */
+    public boolean ejecutaConsulta(){
         String select = inputSelect.getText();
         String expr = inputWhere.getText();
-        // Interprete envia las clausulas de filtrado....
-        ArrayList<ArrayList<Expresion>> expresiones = Parser.analiza(expr);
+        
+        if (!Parser.revisaCorrectas(select)) {
+            Alert alert = new Alert(AlertType.ERROR);
+            alert.setTitle("Error");
+            alert.setHeaderText("Columnas no validas.");
+            alert.setContentText("Ingresa solo columnas validas: \n  movieId, rating, title, year, genres, imdbId, tmdbId");
+            alert.showAndWait();
+            return false;
+        }
+        ArrayList<ArrayList<Expresion>> expresiones = null;
+        try {
+            // Interprete envia las clausulas de filtrado            
+            expresiones = Parser.analiza(expr);
+        } catch (Exception e) {
+            Alert alert = new Alert(AlertType.ERROR);
+            alert.setTitle("Error");
+            alert.setHeaderText("Consulta no valida.");
+            alert.setContentText("Ese comparador no está en nuestra gramática o la sintaxis de la cadena es incorrecta.");
+            alert.showAndWait();
+            return false;
+        }        
+        
         if (!select.contains("title")) {
           select += ", title";
         }
         if (!select.contains("rating")) {
           select += ", rating";
         }
+        
+        int numHilos = getNumHilos();
+        // Probando con un archivo de pocos registros
+        String direccion = "data/out-users-8000_v2.csv";
+        Divisor.divideArchivos(numHilos, direccion);
         // Realiza el filtrado sobre los workers
         Manager.filtraInformacion(numHilos, expresiones, select);
 
@@ -138,6 +167,7 @@ public class Main extends Application{
 
         inputSelect.setText("");
         inputWhere.setText("");
+        return true;
     }
 
     public static void main(String[] args) {

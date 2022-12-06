@@ -13,12 +13,19 @@ import javafx.scene.chart.XYChart;
  */
 public class GraficaBarras {
 
+    private final static int ELEMENTOS_PAGINA = 5; 
+    
+    private int numResultados;
+    
     private int indexInclusive;
 
     private int indexExclusive;
 
-    private ArrayList<PromedioRating> promediosRatings;
-
+    private ArrayList<EstadisticaRating> promediosRating;
+    private ArrayList<EstadisticaRating> minimosRating;
+    private ArrayList<EstadisticaRating> maximosRating;
+    private ArrayList<EstadisticaRating> medianasRating;
+    
     private final BarChart barChart;
 
     /*
@@ -27,7 +34,7 @@ public class GraficaBarras {
     public GraficaBarras() {
       NumberAxis xAxis = new NumberAxis();
       CategoryAxis yAxis = new CategoryAxis();
-      this.indexInclusive = -10;
+      this.indexInclusive = -ELEMENTOS_PAGINA;
       this.indexExclusive = 0;
       this.barChart = new BarChart<>(xAxis, yAxis);
       this.barChart.setAnimated(true);
@@ -37,15 +44,19 @@ public class GraficaBarras {
         return this.barChart;
     }
 
+    public int getNumResultados() {
+        return this.numResultados;
+    }
+    
     /**
      * Muestra los siguientes N registros.
      */
     public void avanza() {
-        this.indexInclusive += 10;
-        this.indexExclusive += 10;
-        if (this.indexExclusive > this.promediosRatings.size() ) {
-            this.indexExclusive = this.promediosRatings.size();
-            this.indexInclusive = (this.promediosRatings.size() / 10) * 10;
+        this.indexInclusive += ELEMENTOS_PAGINA;
+        this.indexExclusive += ELEMENTOS_PAGINA;
+        if (this.indexExclusive > this.promediosRating.size()) {
+            this.indexExclusive = this.promediosRating.size();
+            this.indexInclusive = (this.promediosRating.size() / ELEMENTOS_PAGINA) * ELEMENTOS_PAGINA;
         }
         actualizaDatos();
     }
@@ -54,26 +65,20 @@ public class GraficaBarras {
      * Muestra los N registros anteriores.
      */
     public void retrocede() {
-        if (this.indexExclusive % 10 != 0 && this.indexExclusive >= 0) {
-            int i = this.indexExclusive / 10;
-            if (i == 0) {
-                this.indexExclusive = this.promediosRatings.size();
+        if (this.indexExclusive % ELEMENTOS_PAGINA != 0) {
+            this.indexExclusive -= this.indexExclusive % ELEMENTOS_PAGINA; 
+            this.indexInclusive = this.indexExclusive - ELEMENTOS_PAGINA;
+        } else {
+            this.indexExclusive -= ELEMENTOS_PAGINA;
+            this.indexInclusive -= ELEMENTOS_PAGINA;
+            if (this.indexInclusive < 0) {
                 this.indexInclusive = 0;
-            } else {
-                this.indexExclusive = 10 * (i);
-                this.indexInclusive = this.indexExclusive - 10;
-            }
-            actualizaDatos();
-            return;
-        }
-        this.indexInclusive -= 10;
-        this.indexExclusive -= 10;
-        if (this.indexInclusive < 0) {
-            this.indexInclusive = 0;
-            this.indexExclusive = 10;
-            if (this.indexExclusive > this.promediosRatings.size()) {
-                this.indexExclusive = this.promediosRatings.size();
-            }
+                if (ELEMENTOS_PAGINA > this.promediosRating.size()) { 
+                    this.indexExclusive = this.promediosRating.size();    
+                } else {
+                    this.indexExclusive = ELEMENTOS_PAGINA;
+                }                
+            } 
         }
         actualizaDatos();
     }
@@ -82,8 +87,18 @@ public class GraficaBarras {
      * Calcula otro archivo.
      */
     public void reset() {
-       this.promediosRatings = GeneraEstadisticas.estadisticasRankingPromedio();
-       this.indexInclusive = -10;
+       this.promediosRating = GeneraEstadisticas.estadisticasRatingPromedio();
+       this.medianasRating = GeneraEstadisticas.estadisticasRatingMediana();
+       this.maximosRating = GeneraEstadisticas.estadisticasRatingMinimo(false);
+       this.minimosRating = GeneraEstadisticas.estadisticasRatingMinimo(true);
+       int elementos = promediosRating.size();
+       if (medianasRating.size() != elementos ||  
+           maximosRating.size() != elementos || 
+           minimosRating.size() != elementos) {
+           return;
+       }
+       this.numResultados = elementos;
+       this.indexInclusive = -ELEMENTOS_PAGINA;
        this.indexExclusive = 0;
        avanza();
     }
@@ -93,7 +108,7 @@ public class GraficaBarras {
      */
     private void actualizaDatos() {
         ObservableList<XYChart.Series<Double, String>> data = obtenDatos();
-        this.barChart.setTitle("Resultados de " +
+        this.barChart.setTitle("(" + Integer.toString(this.numResultados) + ") " +  "Resultados de " +
                             Integer.toString(this.indexInclusive + 1) + " a " +
                             Integer.toString(this.indexExclusive));
         this.barChart.setData(data);
@@ -103,14 +118,35 @@ public class GraficaBarras {
      * Crea un objeto reconocible para la interfaz grafica que contiene los datos en un rango dado.
      */
     private ObservableList<XYChart.Series<Double, String>> obtenDatos() {
-      ArrayList<PromedioRating> top = new ArrayList<> (this.promediosRatings.subList(this.indexInclusive, this.indexExclusive));
+      ArrayList<EstadisticaRating> topPromedio = new ArrayList<> (this.promediosRating.subList(this.indexInclusive, this.indexExclusive));
+      ArrayList<EstadisticaRating> topMediana = new ArrayList<> (this.medianasRating.subList(this.indexInclusive, this.indexExclusive));
+      ArrayList<EstadisticaRating> topMinimo = new ArrayList<> (this.minimosRating.subList(this.indexInclusive, this.indexExclusive));
+      ArrayList<EstadisticaRating> topMaximo = new ArrayList<> (this.maximosRating.subList(this.indexInclusive, this.indexExclusive));
+      
       ObservableList<XYChart.Series<Double, String>> data = FXCollections.observableArrayList();
-      XYChart.Series<Double, String> serie = new XYChart.Series<>();
-      serie.setName("Rating promedio");
-      for (PromedioRating promedioRating : top) {
-        serie.getData().add(new XYChart.Data<> ((double) promedioRating.getPromedio(), promedioRating.getParametros()));
+      XYChart.Series<Double, String> seriePromedio = new XYChart.Series<>();
+      XYChart.Series<Double, String> serieMediana = new XYChart.Series<>();
+      XYChart.Series<Double, String> serieMinimo = new XYChart.Series<>();
+      XYChart.Series<Double, String> serieMaximo = new XYChart.Series<>();
+      
+      seriePromedio.setName("Rating promedio");
+      serieMediana.setName("Rating mediana");
+      serieMinimo.setName("Rating minimo");
+      serieMaximo.setName("Rating maximo");
+      
+      for (EstadisticaRating promedioRating : topPromedio) {
+        seriePromedio.getData().add(new XYChart.Data<> ((double) promedioRating.getEstadistica(), promedioRating.getParametros()));
       }
-      data.add(serie);
+      for (EstadisticaRating medianaRating : topMediana) {
+        serieMediana.getData().add(new XYChart.Data<> ((double) medianaRating.getEstadistica(), medianaRating.getParametros()));          
+      }      
+      for (EstadisticaRating minimoRating : topMinimo) {
+        serieMinimo.getData().add(new XYChart.Data<> ((double) minimoRating.getEstadistica(), minimoRating.getParametros()));          
+      }
+      for (EstadisticaRating maximoRating : topMaximo) {
+        serieMaximo.getData().add(new XYChart.Data<> ((double) maximoRating.getEstadistica(), maximoRating.getParametros()));          
+      }
+      data.addAll(seriePromedio, serieMediana, serieMinimo, serieMaximo);
       return data;
     }
 }
