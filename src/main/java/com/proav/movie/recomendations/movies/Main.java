@@ -7,7 +7,7 @@ import com.proav.movie.recomendations.utilidades.Expresion;
 import com.proav.movie.recomendations.utilidades.Parser;
 
 
-import estadisticas.GraficaBarras;
+import com.proav.movie.recomendations.estadisticas.GraficaBarras;
 
 import java.util.ArrayList;
 import javafx.application.Application;

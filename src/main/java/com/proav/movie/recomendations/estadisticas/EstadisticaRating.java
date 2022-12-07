@@ -1,4 +1,4 @@
-package estadisticas;
+package com.proav.movie.recomendations.estadisticas;
 
 /**
  * Objeto que guarda la informacion de una estadistica.

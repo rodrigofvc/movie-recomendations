@@ -1,5 +1,7 @@
-package estadisticas;
+package com.proav.movie.recomendations.estadisticas;
 
+import com.proav.movie.recomendations.estadisticas.GeneraEstadisticas;
+import com.proav.movie.recomendations.estadisticas.EstadisticaRating;
 import java.util.ArrayList;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

@@ -1,5 +1,6 @@
-package estadisticas;
+package com.proav.movie.recomendations.estadisticas;
 
+import com.proav.movie.recomendations.estadisticas.EstadisticaRating;
 import com.proav.movie.recomendations.ManagerWorker.Worker;
 import java.io.BufferedReader;
 import java.io.File;
